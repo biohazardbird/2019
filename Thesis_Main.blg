@@ -16,7 +16,7 @@ Warning--entry type for "Susan" isn't style-file defined
 --line 62 of file Bibliography.bib
 You've used 9 entries,
             3552 wiz_defined-function locations,
-            853 strings with 7338 characters,
+            854 strings with 7346 characters,
 and the built_in function-call counts, 6311 in all, are:
 = -- 756
 > -- 96

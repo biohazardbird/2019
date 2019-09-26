@@ -168,9 +168,6 @@ OUTPUT /home/jaiver/Documents/tesis/Thesis_Main.toc
 INPUT /home/jaiver/Documents/tesis/Thesis_Main.lof
 INPUT /home/jaiver/Documents/tesis/Thesis_Main.lof
 OUTPUT /home/jaiver/Documents/tesis/Thesis_Main.lof
-INPUT /home/jaiver/Documents/tesis/Thesis_Main.lot
-INPUT /home/jaiver/Documents/tesis/Thesis_Main.lot
-OUTPUT /home/jaiver/Documents/tesis/Thesis_Main.lot
 INPUT ./Sections/Seccion_1.tex
 INPUT ./Sections/Seccion_1.tex
 INPUT ./Sections/Seccion_2.tex

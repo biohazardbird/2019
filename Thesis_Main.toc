@@ -1,14 +1,13 @@
 \babel@toc {spanish}{}
 \contentsline {section}{\'{I}ndice de figuras}{III}{section*.5}
-\contentsline {section}{\'{I}ndice de cuadros}{IV}{section*.6}
 \contentsline {section}{\numberline {1}Justificaci\IeC {\'o}n}{1}{section.1}
 \contentsline {section}{\numberline {2}Una revisi\IeC {\'o}n al ADN}{2}{section.2}
 \contentsline {subsection}{\numberline {2.1}Historia del ADN}{2}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Estructura del ADN}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.2}Estructura del ADN}{3}{subsection.2.2}
 \contentsline {subsubsection}{\numberline {2.2.1}Da\IeC {\~n}o inducido por radiaci\IeC {\'o}n al ADN}{4}{subsubsection.2.2.1}
 \contentsline {paragraph}{\numberline {2.2.1.1}Rompimientos simples}{4}{paragraph.2.2.1.1}
 \contentsline {paragraph}{\numberline {2.2.1.2}Rompimientos dobles}{4}{paragraph.2.2.1.2}
-\contentsline {paragraph}{\numberline {2.2.1.3}Da\IeC {\~n}o base}{5}{paragraph.2.2.1.3}
+\contentsline {paragraph}{\numberline {2.2.1.3}Da\IeC {\~n}o base}{4}{paragraph.2.2.1.3}
 \contentsline {paragraph}{\numberline {2.2.1.4}Dimeridos de pirimidina}{5}{paragraph.2.2.1.4}
 \contentsline {subsection}{\numberline {2.3}Da\IeC {\~n}o Celular}{5}{subsection.2.3}
 \contentsline {subsubsection}{\numberline {2.3.1}Reparaci\IeC {\'o}n del ADN}{5}{subsubsection.2.3.1}
@@ -46,4 +45,4 @@
 \contentsline {section}{\numberline {6}Section X}{21}{section.6}
 \contentsline {subsection}{\numberline {6.1}Exemplary Citation}{21}{subsection.6.1}
 \contentsline {section}{\numberline {A}Appendix}{22}{appendix.Alph1}
-\contentsline {section}{Referencias}{23}{section*.27}
+\contentsline {section}{Referencias}{23}{section*.26}
