@@ -1,0 +1,16 @@
+[1] Config.pm:302> INFO - This is Biber 2.9
+[2] Config.pm:305> INFO - Logfile is 'Thesis_Main.blg'
+[80] biber:313> INFO - === mié sep 25, 2019, 18:37:31
+[140] Biber.pm:371> INFO - Reading 'Thesis_Main.bcf'
+[370] Biber.pm:857> INFO - Found 10 citekeys in bib section 0
+[424] Biber.pm:3981> INFO - Processing section 0
+[458] Biber.pm:4154> INFO - Looking for bibtex format file 'Bibliography.bib' for section 0
+[462] bibtex.pm:1468> INFO - LaTeX decoding ...
+[501] bibtex.pm:1294> INFO - Found BibTeX data source 'Bibliography.bib'
+[711] Utils.pm:169> WARN - I didn't find a database entry for 'Ketter2016' (section 0)
+[764] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[764] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[765] Biber.pm:3809> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[810] bbl.pm:617> INFO - Writing 'Thesis_Main.bbl' with encoding 'UTF-8'
+[822] bbl.pm:720> INFO - Output to Thesis_Main.bbl
+[823] Biber.pm:110> INFO - WARNINGS: 1

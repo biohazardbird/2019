@@ -1,0 +1,331 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Susan}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e8714082484e64b57208059cb79cf4ee}{%
+           family={Aldridge},
+           familyi={A\bibinitperiod},
+           given={Susan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e8714082484e64b57208059cb79cf4ee}
+      \strng{fullhash}{e8714082484e64b57208059cb79cf4ee}
+      \strng{bibnamehash}{e8714082484e64b57208059cb79cf4ee}
+      \strng{authorbibnamehash}{e8714082484e64b57208059cb79cf4ee}
+      \strng{authornamehash}{e8714082484e64b57208059cb79cf4ee}
+      \strng{authorfullhash}{e8714082484e64b57208059cb79cf4ee}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(accedido: 05.08.2019)}
+      \field{title}{The DNA story}
+      \verb{urlraw}
+      \verb https://www.chemistryworld.com/news/the-dna-story/3003946.article
+      \endverb
+      \verb{url}
+      \verb https://www.chemistryworld.com/news/the-dna-story/3003946.article
+      \endverb
+      \keyw{DNA}
+    \endentry
+    \entry{pdblib}{article}{}
+      \name{author}{8}{}{%
+        {{hash=8e2f4574a25b3510d6e2d20c5ba5e3bd}{%
+           family={E},
+           familyi={E\bibinitperiod},
+           given={Delage},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f81062b9595938810828d7836a9cd74f}{%
+           family={Q.T},
+           familyi={Q\bibinitperiod},
+           given={Pham},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d837b49b422141d032ceb8b52aa69d1e}{%
+           family={M},
+           familyi={M\bibinitperiod},
+           given={Karamitros},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9b95e43deb7251dc37faaf4c010a62a2}{%
+           family={H},
+           familyi={H\bibinitperiod},
+           given={Payno},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5fd2bb0bcb27f9f1ff9062e02768d60e}{%
+           family={V},
+           familyi={V\bibinitperiod},
+           given={Stepan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8ec1624735014d034831bf299e1ebd59}{%
+           family={S},
+           familyi={S\bibinitperiod},
+           given={Incerti},
+           giveni={I\bibinitperiod}}}%
+        {{hash=319f3003e00ff42a412d8717f7432edc}{%
+           family={L},
+           familyi={L\bibinitperiod},
+           given={Maigne},
+           giveni={M\bibinitperiod}}}%
+        {{hash=924bf9f4554a16f9c84254e8d7cbe9fa}{%
+           family={Y},
+           familyi={Y\bibinitperiod},
+           given={Perr},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{cdac310f9c490de710ad0d7f5628c5cb}
+      \strng{fullhash}{923fb2323137e983cf71b993d71c9caf}
+      \strng{bibnamehash}{cdac310f9c490de710ad0d7f5628c5cb}
+      \strng{authorbibnamehash}{cdac310f9c490de710ad0d7f5628c5cb}
+      \strng{authornamehash}{cdac310f9c490de710ad0d7f5628c5cb}
+      \strng{authorfullhash}{923fb2323137e983cf71b993d71c9caf}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer Physics Communications}
+      \field{title}{{PDB4DNA: Implementation of DNA geometry from the Protein Data Bank (PDB) description for Geant4-DNA Monte-Carlo simulations}}
+      \field{volume}{192}
+      \field{year}{2015}
+      \field{pages}{282\bibrangedash 288}
+      \range{pages}{7}
+      \verb{doi}
+      \verb http://dx.doi.org/10.1016/j.cpc.2015.02.026
+      \endverb
+    \endentry
+    \entry{Podgorsak}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0433cfea7a8c4f527da79829caff5cb6}{%
+           family={E.B},
+           familyi={E\bibinitperiod},
+           given={Podgorsak},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {biological}%
+        {medical physics, biomedical engineering}%
+      }
+      \strng{namehash}{0433cfea7a8c4f527da79829caff5cb6}
+      \strng{fullhash}{0433cfea7a8c4f527da79829caff5cb6}
+      \strng{bibnamehash}{0433cfea7a8c4f527da79829caff5cb6}
+      \strng{authorbibnamehash}{0433cfea7a8c4f527da79829caff5cb6}
+      \strng{authornamehash}{0433cfea7a8c4f527da79829caff5cb6}
+      \strng{authorfullhash}{0433cfea7a8c4f527da79829caff5cb6}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-642-00875-7}
+      \field{series}{biological and medical physics, biomedical engineering}
+      \field{title}{Radiation Physics for Medical Physicists}
+      \field{year}{2010}
+      \keyw{physics,medical,radiation}
+    \endentry
+    \entry{Edward}{book}{}
+      \name{author}{1}{}{%
+        {{hash=de5a10dc7f1936c310c657b17557b620}{%
+           family={Edward},
+           familyi={E\bibinitperiod},
+           given={Alpen},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{de5a10dc7f1936c310c657b17557b620}
+      \strng{fullhash}{de5a10dc7f1936c310c657b17557b620}
+      \strng{bibnamehash}{de5a10dc7f1936c310c657b17557b620}
+      \strng{authorbibnamehash}{de5a10dc7f1936c310c657b17557b620}
+      \strng{authornamehash}{de5a10dc7f1936c310c657b17557b620}
+      \strng{authorfullhash}{de5a10dc7f1936c310c657b17557b620}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780120530854}
+      \field{title}{Radiation Biophysics}
+      \field{year}{1997}
+      \keyw{physics,medical,radiation,dosimetry}
+    \endentry
+    \entry{handson}{online}{}
+      \name{author}{2}{}{%
+        {{hash=a281490f36be37c4ff3bbdd279f1d602}{%
+           family={Emmanuel},
+           familyi={E\bibinitperiod},
+           given={Delage},
+           giveni={D\bibinitperiod}}}%
+        {{hash=fa442d7f6cdca4c134f42c36337682ef}{%
+           family={Yann},
+           familyi={Y\bibinitperiod},
+           given={Perrot},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{227c243ac679aebfc45a98fa645ce6b8}
+      \strng{fullhash}{227c243ac679aebfc45a98fa645ce6b8}
+      \strng{bibnamehash}{227c243ac679aebfc45a98fa645ce6b8}
+      \strng{authorbibnamehash}{227c243ac679aebfc45a98fa645ce6b8}
+      \strng{authornamehash}{227c243ac679aebfc45a98fa645ce6b8}
+      \strng{authorfullhash}{227c243ac679aebfc45a98fa645ce6b8}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(accedido: 01.09.2019)}
+      \field{title}{Hands-on pdb4dna}
+      \verb{urlraw}
+      \verb http://pdb4dna.in2p3.fr/HandsOn_pdb4dna_vf.pdf
+      \endverb
+      \verb{url}
+      \verb http://pdb4dna.in2p3.fr/HandsOn_pdb4dna_vf.pdf
+      \endverb
+      \keyw{DNA,pdb4dna,radiation}
+    \endentry
+    \entry{Frank}{book}{}
+      \name{author}{1}{}{%
+        {{hash=cb86a263bafd9c9a3c4ff87e7d5ab33d}{%
+           family={F.H},
+           familyi={F\bibinitperiod},
+           given={Attix},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {WILEY‐VCH Verlag GmbH \& Co. KGaA}%
+      }
+      \strng{namehash}{cb86a263bafd9c9a3c4ff87e7d5ab33d}
+      \strng{fullhash}{cb86a263bafd9c9a3c4ff87e7d5ab33d}
+      \strng{bibnamehash}{cb86a263bafd9c9a3c4ff87e7d5ab33d}
+      \strng{authorbibnamehash}{cb86a263bafd9c9a3c4ff87e7d5ab33d}
+      \strng{authornamehash}{cb86a263bafd9c9a3c4ff87e7d5ab33d}
+      \strng{authorfullhash}{cb86a263bafd9c9a3c4ff87e7d5ab33d}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780471011460}
+      \field{title}{Introduction to Radiological Physics and Radiation Dosimetry}
+      \field{year}{1986}
+      \keyw{physics,medical,radiation,dosimetry}
+    \endentry
+    \entry{jwfc}{article}{}
+      \name{author}{2}{}{%
+        {{hash=51506b22f14b8d3bc0edcdab6b23b232}{%
+           family={James},
+           familyi={J\bibinitperiod},
+           given={Watson},
+           giveni={W\bibinitperiod}}}%
+        {{hash=29917ca846da0ef53033932a2bfaf2f6}{%
+           family={Francis},
+           familyi={F\bibinitperiod},
+           given={Crick},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{3818259fb64f01cc3e0a65ac114c4d02}
+      \strng{fullhash}{3818259fb64f01cc3e0a65ac114c4d02}
+      \strng{bibnamehash}{3818259fb64f01cc3e0a65ac114c4d02}
+      \strng{authorbibnamehash}{3818259fb64f01cc3e0a65ac114c4d02}
+      \strng{authornamehash}{3818259fb64f01cc3e0a65ac114c4d02}
+      \strng{authorfullhash}{3818259fb64f01cc3e0a65ac114c4d02}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{title}{{Molecular Structure of Nucleid Acids}}
+      \field{volume}{4356}
+      \field{year}{1953}
+      \field{pages}{737\bibrangedash 738}
+      \range{pages}{2}
+    \endentry
+    \entry{Thormod}{online}{}
+      \name{author}{2}{}{%
+        {{hash=32ff6625e9171de259f6210972be0117}{%
+           family={Thormod},
+           familyi={T\bibinitperiod},
+           given={Henriksen},
+           giveni={H\bibinitperiod}}}%
+        {{hash=577cf8c4fd4beef85e531716784f4e19}{%
+           family={UiO},
+           familyi={U\bibinitperiod},
+           given={Biophysics},
+           giveni={B\bibinitperiod},
+           prefix={group\bibnamedelima at},
+           prefixi={g\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f1150d551c0916a72fa070dab449bf6}
+      \strng{fullhash}{3f1150d551c0916a72fa070dab449bf6}
+      \strng{bibnamehash}{3f1150d551c0916a72fa070dab449bf6}
+      \strng{authorbibnamehash}{3f1150d551c0916a72fa070dab449bf6}
+      \strng{authornamehash}{3f1150d551c0916a72fa070dab449bf6}
+      \strng{authorfullhash}{3f1150d551c0916a72fa070dab449bf6}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(accedido: 10.09.2019)}
+      \field{title}{Radiation and Health}
+      \verb{urlraw}
+      \verb https://www.mn.uio.no/fysikk/english/services/knowledge/radiation-and-health/
+      \endverb
+      \verb{url}
+      \verb https://www.mn.uio.no/fysikk/english/services/knowledge/radiation-and-health/
+      \endverb
+      \keyw{DNA,radiation,damage}
+    \endentry
+    \entry{willmari}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7deda11e5257b72576900804b9c61f98}{%
+           family={William\bibnamedelima F.},
+           familyi={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Morgan},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ae3073c83aa62c080a1ac69952c82625}{%
+           family={Marianne\bibnamedelima B.},
+           familyi={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Sowa},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e31ba62a9f4010fda3220925ace86474}
+      \strng{fullhash}{e31ba62a9f4010fda3220925ace86474}
+      \strng{bibnamehash}{e31ba62a9f4010fda3220925ace86474}
+      \strng{authorbibnamehash}{e31ba62a9f4010fda3220925ace86474}
+      \strng{authornamehash}{e31ba62a9f4010fda3220925ace86474}
+      \strng{authorfullhash}{e31ba62a9f4010fda3220925ace86474}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proc Natl Acad Sci U S A}
+      \field{title}{Effects of ionizing radiation in nonirradiated cells}
+      \field{year}{2005}
+      \verb{doi}
+      \verb 10.1073/pnas.0507119102
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1242332/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1242332/
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{Ketter2016}
+\endrefsection
+\endinput
+
