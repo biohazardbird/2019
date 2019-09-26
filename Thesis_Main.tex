@@ -36,9 +36,12 @@
 
 % set APA citation style
 %\usepackage{apacite}
-\usepackage{biblatex}
-\addbibresource{Bibliography.bib}
-\usepackage[numbib,notlof,notlot,nottoc]{tocbibind}
+%\usepackage{biblatex}
+%\addbibresource{Bibliography.bib}
+\usepackage[nottoc]{tocbibind}
+\usepackage[square,numbers]{natbib}
+\bibliographystyle{dinat}
+%\usepackage{biblatex}
 \pagenumbering{gobble}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -151,7 +154,7 @@ ADN, posterior a su interacción con radiación ionizante}
 
 %\bibliographystyle{apacite}
 %\bibliography{Bibliography.bib}
-\printbibliography
 
+\bibliography{Bibliography}
 
 \end{document}

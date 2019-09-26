@@ -2,7 +2,7 @@
 \clearpage
 
 \section{GEANT4}
-\label{sec:Intro}
+\label{sec:GEANT4}
 GEANT4(\textbf{GE}ometry \textbf{AN}d \textbf{T}racking - \textbf{4} versión) es una plataforma computacional para la simulación de diversos procesos físicos que se centra en la interacción de partículas viajando a través de la materia haciendo uso de monte carlo. Geant es creado en 1974 por el CERN pensado originalmente para la simulación de experimentos en física de altas energías, esto cambiaría con el desarrollo de subsecuentes versiones las cuales serían empleadas en muchos otros campos, su cuarta versión Geant4 es publicada en 1998, esta ultima a su vez también ha tenido diversas versiones actualizadas cada año, su lanzamiento más reciente ha sido Geant4-10.5.p01 y su versión beta Geant4-10.6-beta ambas versiones liberadas en el presente año,  cuenta  con áreas de aplicación que incluyen física de altas energías, física espacial, física médica, transferencia tecnológica, entre otras, su desarrollo, aplicación y mantenimiento son debido al equipo colaborativo a nivel global Geant4 Colaboration los cuales se centran en que el software pueda ser lo mejor posible.
 \\
 \\
@@ -87,7 +87,7 @@ El calculo de rompimientos simples se hace a partir  de la asunción de que la e
     \label{fig:sbdb}
 \end{figure}
 
-Al principio de la simulación se crea un registro para cada cadena de ADN, los valores de dicho registro corresponden a los id de los nucleótidos y la deposición total de energía por cada evento, lo cual se tiene correlación al seguimiento de una partícula primaria y todas sus segundarías, los registros son actualizados cada vez que el algoritmo para encontrar el átomo más cercano se completa correctamente, al final de cada evento, los registros son leídos para computar el numero de rompimientos simples y dobles, cuando la simulación termina se almacena  en un histograma de ROOT la energía total de deposición en la caja de agua,y el numero de rompimientos simples y dobles\cite{pdblib}, como muestra la figura ~\ref{fig:histosbdb}.
+Al principio de la simulación se crea un registro para cada cadena de ADN, los valores de dicho registro corresponden a los id de los nucleótidos y la deposición total de energía por cada evento, lo cual se tiene correlación al seguimiento de una partícula primaria y todas sus  segundarías, los registros son actualizados cada vez que el algoritmo para encontrar el átomo más cercano se completa correctamente, al final de cada evento, los registros son leídos para computar el numero de rompimientos simples y dobles, cuando la simulación termina se almacena  en un histograma de ROOT la energía total de deposición en la caja de agua,y el numero de rompimientos simples y dobles\cite{pdblib}, como muestra la figura ~\ref{fig:histosbdb}.
 
 \begin{figure}[htbp]
     \centering
