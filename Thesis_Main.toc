@@ -27,8 +27,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.3.3}Respuesta adaptativa}{5}{subsubsection.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.4}Effects of ionizing radiation in nonirradiated cells}{5}{subsubsection.2.3.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Interacci\IeC {\'o}n radiaci\IeC {\'o}n-materia}{6}{section.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1}Interacciones de fotones en la materia}{6}{subsection.3.1}

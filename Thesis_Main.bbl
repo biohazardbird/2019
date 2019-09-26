@@ -288,42 +288,6 @@
       \endverb
       \keyw{DNA,radiation,damage}
     \endentry
-    \entry{willmari}{article}{}
-      \name{author}{2}{}{%
-        {{hash=7deda11e5257b72576900804b9c61f98}{%
-           family={William\bibnamedelima F.},
-           familyi={W\bibinitperiod\bibinitdelim F\bibinitperiod},
-           given={Morgan},
-           giveni={M\bibinitperiod}}}%
-        {{hash=ae3073c83aa62c080a1ac69952c82625}{%
-           family={Marianne\bibnamedelima B.},
-           familyi={M\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={Sowa},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{e31ba62a9f4010fda3220925ace86474}
-      \strng{fullhash}{e31ba62a9f4010fda3220925ace86474}
-      \strng{bibnamehash}{e31ba62a9f4010fda3220925ace86474}
-      \strng{authorbibnamehash}{e31ba62a9f4010fda3220925ace86474}
-      \strng{authornamehash}{e31ba62a9f4010fda3220925ace86474}
-      \strng{authorfullhash}{e31ba62a9f4010fda3220925ace86474}
-      \field{sortinit}{W}
-      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proc Natl Acad Sci U S A}
-      \field{title}{Effects of ionizing radiation in nonirradiated cells}
-      \field{year}{2005}
-      \verb{doi}
-      \verb 10.1073/pnas.0507119102
-      \endverb
-      \verb{urlraw}
-      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1242332/
-      \endverb
-      \verb{url}
-      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1242332/
-      \endverb
-    \endentry
   \enddatalist
   \missing{Ketter2016}
 \endrefsection

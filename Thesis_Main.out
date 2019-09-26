@@ -11,35 +11,34 @@
 \BOOKMARK [3][-]{subsubsection.2.3.1}{Reparaci\363n del ADN}{subsection.2.3}% 11
 \BOOKMARK [3][-]{subsubsection.2.3.2}{Mecanismos de defensa}{subsection.2.3}% 12
 \BOOKMARK [3][-]{subsubsection.2.3.3}{Respuesta adaptativa}{subsection.2.3}% 13
-\BOOKMARK [3][-]{subsubsection.2.3.4}{Effects of ionizing radiation in nonirradiated cells}{subsection.2.3}% 14
-\BOOKMARK [1][-]{section.3}{Interacci\363n radiaci\363n-materia}{}% 15
-\BOOKMARK [2][-]{subsection.3.1}{Interacciones de fotones en la materia}{section.3}% 16
-\BOOKMARK [3][-]{paragraph.3.1.0.1}{Dispersi\363n de Compton\(Dispersi\363n incoherente\)}{subsection.3.1}% 17
-\BOOKMARK [4][-]{paragraph.3.1.0.2}{Dispersi\363n de Rayleigh\(Dispersi\363n coherente\)}{paragraph.3.1.0.1}% 18
-\BOOKMARK [4][-]{paragraph.3.1.0.3}{Efecto Fotoelectrico}{paragraph.3.1.0.1}% 19
-\BOOKMARK [4][-]{paragraph.3.1.0.4}{Producci\363n de pares}{paragraph.3.1.0.1}% 20
-\BOOKMARK [5][-]{subparagraph.3.1.0.4.1}{Producci\363n nuclear de pares}{paragraph.3.1.0.4}% 21
-\BOOKMARK [5][-]{subparagraph.3.1.0.4.2}{Producci\363n electr\363nica de pares}{paragraph.3.1.0.4}% 22
-\BOOKMARK [4][-]{paragraph.3.1.0.5}{Reacciones fotonucleares}{paragraph.3.1.0.1}% 23
-\BOOKMARK [2][-]{subsection.3.2}{Interacciones de part\355culas cargadas en la materia}{section.3}% 24
-\BOOKMARK [3][-]{paragraph.3.2.0.1}{Colisi\363n de radiaci\363n\(ba\)}{subsection.3.2}% 25
-\BOOKMARK [4][-]{subparagraph.3.2.0.1.1}{Bremsstrahlung}{paragraph.3.2.0.1}% 26
-\BOOKMARK [4][-]{paragraph.3.2.0.2}{Colisi\363n fuerte\(ba\)}{paragraph.3.2.0.1}% 27
-\BOOKMARK [4][-]{paragraph.3.2.0.3}{Colisi\363n debil\(ba\)}{paragraph.3.2.0.1}% 28
-\BOOKMARK [1][-]{section.4}{GEANT4}{}% 29
-\BOOKMARK [2][-]{subsection.4.1}{PDB4DNA}{section.4}% 30
-\BOOKMARK [3][-]{subsubsection.4.1.1}{PDB}{subsection.4.1}% 31
-\BOOKMARK [3][-]{subsubsection.4.1.2}{pdb reader}{subsection.4.1}% 32
-\BOOKMARK [3][-]{subsubsection.4.1.3}{Visualizaci\363n}{subsection.4.1}% 33
-\BOOKMARK [3][-]{subsubsection.4.1.4}{Simulaci\363n}{subsection.4.1}% 34
-\BOOKMARK [3][-]{subsubsection.4.1.5}{Algoritmo para encontrar el atomo m\341s cercano}{subsection.4.1}% 35
-\BOOKMARK [3][-]{subsubsection.4.1.6}{Rompimientos simples y dobles}{subsection.4.1}% 36
-\BOOKMARK [3][-]{subsubsection.4.1.7}{Archivos Relevantes}{subsection.4.1}% 37
-\BOOKMARK [4][-]{paragraph.4.1.7.1}{PhysicsList}{subsubsection.4.1.7}% 38
-\BOOKMARK [4][-]{paragraph.4.1.7.2}{PDBlib}{subsubsection.4.1.7}% 39
-\BOOKMARK [4][-]{paragraph.4.1.7.3}{DetectorConstruction}{subsubsection.4.1.7}% 40
-\BOOKMARK [4][-]{paragraph.4.1.7.4}{SteppingAction}{subsubsection.4.1.7}% 41
-\BOOKMARK [1][-]{section.5}{Modificaciones PDB4DNA}{}% 42
-\BOOKMARK [1][-]{section.6}{Section X}{}% 43
-\BOOKMARK [2][-]{subsection.6.1}{Exemplary Citation}{section.6}% 44
-\BOOKMARK [1][-]{appendix.Alph1}{Appendix}{}% 45
+\BOOKMARK [1][-]{section.3}{Interacci\363n radiaci\363n-materia}{}% 14
+\BOOKMARK [2][-]{subsection.3.1}{Interacciones de fotones en la materia}{section.3}% 15
+\BOOKMARK [3][-]{paragraph.3.1.0.1}{Dispersi\363n de Compton\(Dispersi\363n incoherente\)}{subsection.3.1}% 16
+\BOOKMARK [4][-]{paragraph.3.1.0.2}{Dispersi\363n de Rayleigh\(Dispersi\363n coherente\)}{paragraph.3.1.0.1}% 17
+\BOOKMARK [4][-]{paragraph.3.1.0.3}{Efecto Fotoelectrico}{paragraph.3.1.0.1}% 18
+\BOOKMARK [4][-]{paragraph.3.1.0.4}{Producci\363n de pares}{paragraph.3.1.0.1}% 19
+\BOOKMARK [5][-]{subparagraph.3.1.0.4.1}{Producci\363n nuclear de pares}{paragraph.3.1.0.4}% 20
+\BOOKMARK [5][-]{subparagraph.3.1.0.4.2}{Producci\363n electr\363nica de pares}{paragraph.3.1.0.4}% 21
+\BOOKMARK [4][-]{paragraph.3.1.0.5}{Reacciones fotonucleares}{paragraph.3.1.0.1}% 22
+\BOOKMARK [2][-]{subsection.3.2}{Interacciones de part\355culas cargadas en la materia}{section.3}% 23
+\BOOKMARK [3][-]{paragraph.3.2.0.1}{Colisi\363n de radiaci\363n\(ba\)}{subsection.3.2}% 24
+\BOOKMARK [4][-]{subparagraph.3.2.0.1.1}{Bremsstrahlung}{paragraph.3.2.0.1}% 25
+\BOOKMARK [4][-]{paragraph.3.2.0.2}{Colisi\363n fuerte\(ba\)}{paragraph.3.2.0.1}% 26
+\BOOKMARK [4][-]{paragraph.3.2.0.3}{Colisi\363n debil\(ba\)}{paragraph.3.2.0.1}% 27
+\BOOKMARK [1][-]{section.4}{GEANT4}{}% 28
+\BOOKMARK [2][-]{subsection.4.1}{PDB4DNA}{section.4}% 29
+\BOOKMARK [3][-]{subsubsection.4.1.1}{PDB}{subsection.4.1}% 30
+\BOOKMARK [3][-]{subsubsection.4.1.2}{pdb reader}{subsection.4.1}% 31
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Visualizaci\363n}{subsection.4.1}% 32
+\BOOKMARK [3][-]{subsubsection.4.1.4}{Simulaci\363n}{subsection.4.1}% 33
+\BOOKMARK [3][-]{subsubsection.4.1.5}{Algoritmo para encontrar el atomo m\341s cercano}{subsection.4.1}% 34
+\BOOKMARK [3][-]{subsubsection.4.1.6}{Rompimientos simples y dobles}{subsection.4.1}% 35
+\BOOKMARK [3][-]{subsubsection.4.1.7}{Archivos Relevantes}{subsection.4.1}% 36
+\BOOKMARK [4][-]{paragraph.4.1.7.1}{PhysicsList}{subsubsection.4.1.7}% 37
+\BOOKMARK [4][-]{paragraph.4.1.7.2}{PDBlib}{subsubsection.4.1.7}% 38
+\BOOKMARK [4][-]{paragraph.4.1.7.3}{DetectorConstruction}{subsubsection.4.1.7}% 39
+\BOOKMARK [4][-]{paragraph.4.1.7.4}{SteppingAction}{subsubsection.4.1.7}% 40
+\BOOKMARK [1][-]{section.5}{Modificaciones PDB4DNA}{}% 41
+\BOOKMARK [1][-]{section.6}{Section X}{}% 42
+\BOOKMARK [2][-]{subsection.6.1}{Exemplary Citation}{section.6}% 43
+\BOOKMARK [1][-]{appendix.Alph1}{Appendix}{}% 44

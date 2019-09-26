@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.10)  25 SEP 2019 18:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.10)  25 SEP 2019 17:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -996,7 +996,7 @@ Package biblatex Warning: The following entry could not be found
 Package biblatex Info: Reference section=0 on input line 69.
 Package biblatex Info: Reference segment=0 on input line 69.
  (/home/jaiver/Documents/tesis/Template/Title.tex
-<./Figures/UoC_Logo.png, id=184, 105.996pt x 109.3686pt>
+<./Figures/UoC_Logo.png, id=180, 105.996pt x 109.3686pt>
 File: ./Figures/UoC_Logo.png Graphic file (type png)
 <use ./Figures/UoC_Logo.png>
 Package pdftex.def Info: ./Figures/UoC_Logo.png  used on input line 20.
@@ -1319,12 +1319,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-<./Figures/RF.png, id=323, 331.2375pt x 337.26pt>
+<./Figures/RF.png, id=318, 331.2375pt x 337.26pt>
 File: ./Figures/RF.png Graphic file (type png)
 <use ./Figures/RF.png>
 Package pdftex.def Info: ./Figures/RF.png  used on input line 24.
 (pdftex.def)             Requested size: 206.28249pt x 210.03049pt.
-<./Figures/DNA1.png, id=325, 133.49875pt x 390.45876pt>
+<./Figures/DNA1.png, id=320, 133.49875pt x 390.45876pt>
 File: ./Figures/DNA1.png Graphic file (type png)
 <use ./Figures/DNA1.png>
 Package pdftex.def Info: ./Figures/DNA1.png  used on input line 31.
@@ -1538,18 +1538,6 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 62.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 62.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 63.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 63.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 63.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 63.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 63.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 63.
 ) (./Sections/Seccion_3.tex
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
@@ -1632,7 +1620,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figures/compton1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Figures/compton1-eps-converted-to.pdf, id=354, 588.1975pt x 349.305pt>
+<./Figures/compton1-eps-converted-to.pdf, id=347, 588.1975pt x 349.305pt>
 File: ./Figures/compton1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/compton1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/compton1-eps-converted-to.pdf  used on input line 16.
@@ -1699,7 +1687,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figures/Ray-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Figures/Ray-eps-converted-to.pdf, id=366, 589.20125pt x 349.305pt>
+<./Figures/Ray-eps-converted-to.pdf, id=359, 589.20125pt x 349.305pt>
 File: ./Figures/Ray-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/Ray-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/Ray-eps-converted-to.pdf  used on input line 27.
@@ -1756,7 +1744,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figures/fotoelec-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Figures/fotoelec-eps-converted-to.pdf, id=402, 530.98375pt x 349.305pt>
+<./Figures/fotoelec-eps-converted-to.pdf, id=395, 530.98375pt x 349.305pt>
 File: ./Figures/fotoelec-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/fotoelec-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/fotoelec-eps-converted-to.pdf  used on input line 42.
@@ -1825,7 +1813,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figures/nuclearpp-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Figures/nuclearpp-eps-converted-to.pdf, id=434, 548.0475pt x 349.305pt>
+<./Figures/nuclearpp-eps-converted-to.pdf, id=427, 548.0475pt x 349.305pt>
 File: ./Figures/nuclearpp-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/nuclearpp-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/nuclearpp-eps-converted-to.pdf  used on input line 54.
@@ -1854,7 +1842,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figures/electpp-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Figures/electpp-eps-converted-to.pdf, id=436, 589.20125pt x 349.305pt>
+<./Figures/electpp-eps-converted-to.pdf, id=429, 589.20125pt x 349.305pt>
 File: ./Figures/electpp-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/electpp-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/electpp-eps-converted-to.pdf  used on input line 62.
@@ -1911,7 +1899,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figures/fotoneu-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Figures/fotoneu-eps-converted-to.pdf, id=460, 538.01pt x 349.305pt>
+<./Figures/fotoneu-eps-converted-to.pdf, id=452, 538.01pt x 349.305pt>
 File: ./Figures/fotoneu-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/fotoneu-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/fotoneu-eps-converted-to.pdf  used on input line 72.
@@ -2012,7 +2000,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figures/radiacol-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Figures/radiacol-eps-converted-to.pdf, id=491, 507.8975pt x 253.94875pt>
+<./Figures/radiacol-eps-converted-to.pdf, id=484, 507.8975pt x 253.94875pt>
 File: ./Figures/radiacol-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/radiacol-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/radiacol-eps-converted-to.pdf  used on input line 95.
@@ -2081,7 +2069,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figures/hardcoli-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Figures/hardcoli-eps-converted-to.pdf, id=512, 507.8975pt x 287.0725pt>
+<./Figures/hardcoli-eps-converted-to.pdf, id=505, 507.8975pt x 287.0725pt>
 File: ./Figures/hardcoli-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/hardcoli-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/hardcoli-eps-converted-to.pdf  used on input line 107.
@@ -2122,7 +2110,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figures/softcoli-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Figures/softcoli-eps-converted-to.pdf, id=514, 507.8975pt x 392.46625pt>
+<./Figures/softcoli-eps-converted-to.pdf, id=507, 507.8975pt x 392.46625pt>
 File: ./Figures/softcoli-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/softcoli-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/softcoli-eps-converted-to.pdf  used on input line 117.
@@ -2202,7 +2190,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 18.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 18.
-<./Figures/pdb.png, id=538, 376.40625pt x 490.83376pt>
+<./Figures/pdb.png, id=531, 376.40625pt x 490.83376pt>
 File: ./Figures/pdb.png Graphic file (type png)
 <use ./Figures/pdb.png>
 Package pdftex.def Info: ./Figures/pdb.png  used on input line 26.
@@ -2261,17 +2249,17 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 33.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 33.
-<./Figures/ba.png, id=545, 811.53188pt x 454.69875pt>
+<./Figures/ba.png, id=538, 811.53188pt x 454.69875pt>
 File: ./Figures/ba.png Graphic file (type png)
 <use ./Figures/ba.png>
 Package pdftex.def Info: ./Figures/ba.png  used on input line 38.
 (pdftex.def)             Requested size: 288.79422pt x 161.81119pt.
-<./Figures/cpk.png, id=546, 811.53188pt x 454.69875pt>
+<./Figures/cpk.png, id=539, 811.53188pt x 454.69875pt>
 File: ./Figures/cpk.png Graphic file (type png)
 <use ./Figures/cpk.png>
 Package pdftex.def Info: ./Figures/cpk.png  used on input line 46.
 (pdftex.def)             Requested size: 288.79422pt x 161.81119pt.
-<./Figures/re.png, id=547, 811.53188pt x 454.69875pt>
+<./Figures/re.png, id=540, 811.53188pt x 454.69875pt>
 File: ./Figures/re.png Graphic file (type png)
 <use ./Figures/re.png>
 Package pdftex.def Info: ./Figures/re.png  used on input line 53.
@@ -2356,12 +2344,12 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 61.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 61.
-<./Figures/aalgo.png, id=561, 745.78625pt x 139.52126pt>
+<./Figures/aalgo.png, id=554, 745.78625pt x 139.52126pt>
 File: ./Figures/aalgo.png Graphic file (type png)
 <use ./Figures/aalgo.png>
 Package pdftex.def Info: ./Figures/aalgo.png  used on input line 68.
 (pdftex.def)             Requested size: 330.05324pt x 61.74506pt.
-<./Figures/algo.png, id=564, 285.065pt x 540.0175pt>
+<./Figures/algo.png, id=557, 285.065pt x 540.0175pt>
 File: ./Figures/algo.png Graphic file (type png)
 <use ./Figures/algo.png>
 Package pdftex.def Info: ./Figures/algo.png  used on input line 75.
@@ -2406,12 +2394,12 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 82.
  [16 <./Figures/aalgo.png>]
-<./Figures/romp.png, id=576, 498.86375pt x 159.59625pt>
+<./Figures/romp.png, id=569, 498.86375pt x 159.59625pt>
 File: ./Figures/romp.png Graphic file (type png)
 <use ./Figures/romp.png>
 Package pdftex.def Info: ./Figures/romp.png  used on input line 85.
 (pdftex.def)             Requested size: 330.05324pt x 105.5944pt.
-<./Figures/c1.png, id=581, 1508.63625pt x 659.46375pt>
+<./Figures/c1.png, id=574, 1508.63625pt x 659.46375pt>
 File: ./Figures/c1.png Graphic file (type png)
 <use ./Figures/c1.png>
 Package pdftex.def Info: ./Figures/c1.png  used on input line 94.
@@ -2471,7 +2459,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 103.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 103.
-<./Figures/flujo.png, id=589, 1100.11pt x 446.66875pt>
+<./Figures/flujo.png, id=582, 1100.11pt x 446.66875pt>
 File: ./Figures/flujo.png Graphic file (type png)
 <use ./Figures/flujo.png>
 Package pdftex.def Info: ./Figures/flujo.png  used on input line 107.
@@ -2763,7 +2751,7 @@ LaTeX Info: Redefining \% on input line 27.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 157.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
 Package rerunfilecheck Info: File `Thesis_Main.out' has not changed.
-(rerunfilecheck)             Checksum: C87501745977867107BE84E2235893CC;3534.
+(rerunfilecheck)             Checksum: 4315DD06AA433EF9C713256A49059D48;3422.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2774,19 +2762,19 @@ Package logreq Info: Writing requests to 'Thesis_Main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
  ) 
 Here is how much of TeX's memory you used:
- 16483 strings out of 492982
- 264895 string characters out of 6134896
- 704905 words of memory out of 5000000
- 19691 multiletter control sequences out of 15000+600000
+ 16478 strings out of 492982
+ 264759 string characters out of 6134896
+ 704860 words of memory out of 5000000
+ 19688 multiletter control sequences out of 15000+600000
  16170 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,12n,48p,1300b,3504s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on /home/jaiver/Documents/tesis/Thesis_Main.pdf (30 pages, 2255404 bytes).
+Output written on /home/jaiver/Documents/tesis/Thesis_Main.pdf (30 pages, 2253010 bytes).
 PDF statistics:
- 729 PDF objects out of 1000 (max. 8388607)
- 627 compressed objects within 7 object streams
- 110 named destinations out of 1000 (max. 500000)
- 466 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 716 PDF objects out of 1000 (max. 8388607)
+ 614 compressed objects within 7 object streams
+ 108 named destinations out of 1000 (max. 500000)
+ 458 words of extra memory for PDF output out of 10000 (max. 10000000)
 
