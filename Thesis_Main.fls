@@ -299,8 +299,6 @@ INPUT ./Figures/flujo.png
 INPUT ./Figures/flujo.png
 INPUT ./Sections/Seccion_5.tex
 INPUT ./Sections/Seccion_5.tex
-INPUT ./Sections/Seccion_X.tex
-INPUT ./Sections/Seccion_X.tex
 INPUT /home/jaiver/Documents/tesis/Appendices/Appendix_1.tex
 INPUT /home/jaiver/Documents/tesis/Appendices/Appendix_1.tex
 INPUT /home/jaiver/Documents/tesis/Thesis_Main.bbl

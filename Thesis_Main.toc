@@ -13,7 +13,7 @@
 \contentsline {subsubsection}{\numberline {2.3.1}Reparaci\IeC {\'o}n del ADN}{6}{subsubsection.2.3.1}
 \contentsline {subsubsection}{\numberline {2.3.2}Mecanismos de defensa}{6}{subsubsection.2.3.2}
 \contentsline {subsubsection}{\numberline {2.3.3}Respuesta adaptativa}{6}{subsubsection.2.3.3}
-\contentsline {subsubsection}{\numberline {2.3.4}Effects of ionizing radiation in nonirradiated cells}{6}{subsubsection.2.3.4}
+\contentsline {subsubsection}{\numberline {2.3.4}Efectos de radiaci\IeC {\'o}n ionizante en c\IeC {\'e}lulas no irradiadas}{6}{subsubsection.2.3.4}
 \contentsline {section}{\numberline {3}Interacci\IeC {\'o}n radiaci\IeC {\'o}n-materia}{7}{section.3}
 \contentsline {subsection}{\numberline {3.1}Interacciones de fotones en la materia}{7}{subsection.3.1}
 \contentsline {paragraph}{\numberline {3.1.0.1}Dispersi\IeC {\'o}n de Compton(Dispersi\IeC {\'o}n incoherente)}{7}{paragraph.3.1.0.1}
@@ -42,7 +42,5 @@
 \contentsline {paragraph}{\numberline {4.1.7.3}DetectorConstruction}{20}{paragraph.4.1.7.3}
 \contentsline {paragraph}{\numberline {4.1.7.4}SteppingAction}{20}{paragraph.4.1.7.4}
 \contentsline {section}{\numberline {5}Modificaciones PDB4DNA}{21}{section.5}
-\contentsline {section}{\numberline {6}Section X}{22}{section.6}
-\contentsline {subsection}{\numberline {6.1}Exemplary Citation}{22}{subsection.6.1}
-\contentsline {section}{\numberline {A}Appendix}{23}{appendix.Alph1}
-\contentsline {section}{Referencias}{24}{section*.28}
+\contentsline {section}{\numberline {A}Appendix}{22}{appendix.Alph1}
+\contentsline {section}{Referencias}{23}{section*.28}
