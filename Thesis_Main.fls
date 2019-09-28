@@ -184,6 +184,8 @@ INPUT ./Figures/esbdb.png
 INPUT /home/jaiver/Documents/tesis/./Figures/base-piri.png
 INPUT ./Figures/base-piri.png
 INPUT ./Figures/base-piri.png
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 INPUT ./Sections/Seccion_3.tex
 INPUT ./Sections/Seccion_3.tex
 INPUT /home/jaiver/Documents/tesis/./Figures/compton1.eps
