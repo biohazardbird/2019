@@ -14,45 +14,45 @@ Warning--entry type for "Thormod" isn't style-file defined
 --line 53 of file Bibliography.bib
 Warning--entry type for "Susan" isn't style-file defined
 --line 62 of file Bibliography.bib
-You've used 9 entries,
+You've used 12 entries,
             3552 wiz_defined-function locations,
-            854 strings with 7346 characters,
-and the built_in function-call counts, 6311 in all, are:
-= -- 756
-> -- 96
-< -- 172
-+ -- 214
-- -- 60
-* -- 568
-:= -- 1081
-add.period$ -- 6
-call.type$ -- 9
-change.case$ -- 50
-chr.to.int$ -- 9
-cite$ -- 9
-duplicate$ -- 164
-empty$ -- 445
-format.name$ -- 117
-if$ -- 1232
+            872 strings with 7722 characters,
+and the built_in function-call counts, 8071 in all, are:
+= -- 963
+> -- 126
+< -- 180
++ -- 236
+- -- 81
+* -- 758
+:= -- 1383
+add.period$ -- 11
+call.type$ -- 12
+change.case$ -- 65
+chr.to.int$ -- 12
+cite$ -- 12
+duplicate$ -- 219
+empty$ -- 579
+format.name$ -- 152
+if$ -- 1587
 int.to.chr$ -- 0
 int.to.str$ -- 1
-missing$ -- 17
-newline$ -- 66
-num.names$ -- 36
-pop$ -- 80
+missing$ -- 26
+newline$ -- 86
+num.names$ -- 48
+pop$ -- 105
 preamble$ -- 1
-purify$ -- 47
+purify$ -- 62
 quote$ -- 0
-skip$ -- 265
+skip$ -- 313
 stack$ -- 0
-substring$ -- 496
-swap$ -- 39
-text.length$ -- 20
+substring$ -- 632
+swap$ -- 52
+text.length$ -- 26
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 84
+type$ -- 117
 warning$ -- 0
-while$ -- 68
+while$ -- 89
 width$ -- 0
-write$ -- 103
+write$ -- 137
 (There were 3 warnings)

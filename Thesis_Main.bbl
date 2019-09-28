@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{12}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -14,50 +14,44 @@
   \url{https://www.chemistryworld.com/news/the-dna-story/3003946.article}. --
 \newblock [Accessed July 1st, 2019]
 
-\bibitem[E u.\,a.(2015)E, Q.T, M, H, V, S, L und Y]{pdblib}
-\dinatlabel{E u.\,a. 2015} \textsc{E}, Delage~; \textsc{Q.T}, Pham~;
-  \textsc{M}, Karamitros~; \textsc{H}, Payno~; \textsc{V}, Stepan~; \textsc{S},
-  Incerti~; \textsc{L}, Maigne~; \textsc{Y}, Perr:
+\bibitem[Alpen(1997)]{Edward}
+\dinatlabel{Alpen 1997} \textsc{Alpen}, Edward:
+\newblock \emph{Radiation Biophysics}.
+\newblock Academic Press, 1997. --
+\newblock ISBN 9780120530854
+
+\bibitem[Attix(1986)]{Frank}
+\dinatlabel{Attix 1986} \textsc{Attix}, F.H:
+\newblock \emph{Introduction to Radiological Physics and Radiation Dosimetry}.
+\newblock WILEY‐VCH Verlag GmbH \& Co. KGaA, 1986. --
+\newblock ISBN 9780471011460
+
+\bibitem[Delage u.\,a.(2015)Delage, Pham, Karamitros, Payno, Stepan, Incerti,
+  Maigne und Perr]{pdblib}
+\dinatlabel{Delage u.\,a. 2015} \textsc{Delage}, E~; \textsc{Pham}, Q.T~;
+  \textsc{Karamitros}, M~; \textsc{Payno}, H~; \textsc{Stepan}, V~;
+  \textsc{Incerti}, S~; \textsc{Maigne}, L~; \textsc{Perr}, Y:
 \newblock {PDB4DNA: Implementation of DNA geometry from the Protein Data Bank
   (PDB) description for Geant4-DNA Monte-Carlo simulations}.
 \newblock In: \emph{Computer Physics Communications}
 \newblock 192 (2015), S.~282--288
 
-\bibitem[E.B(2010)]{Podgorsak}
-\dinatlabel{E.B 2010} \textsc{E.B}, Podgorsak:
-\newblock \emph{Radiation Physics for Medical Physicists}.
-\newblock Springer, 2010
-\newblock (biological and medical physics, biomedical engineering). --
-\newblock ISBN 978-3-642-00875-7
-
-\bibitem[Edward(1997)]{Edward}
-\dinatlabel{Edward 1997} \textsc{Edward}, Alpen:
-\newblock \emph{Radiation Biophysics}.
-\newblock Academic Press, 1997. --
-\newblock ISBN 9780120530854
-
-\bibitem[Emmanuel und Yann()]{handson}
-\dinatlabel{Emmanuel und Yann } \textsc{Emmanuel}, Delage~; \textsc{Yann},
-  Perrot:
+\bibitem[Delage und Perrot()]{handson}
+\dinatlabel{Delage und Perrot } \textsc{Delage}, Emmanuel~; \textsc{Perrot},
+  Yann:
 \newblock \emph{Hands-on pdb4dna}. --
 \newblock URL \url{http://pdb4dna.in2p3.fr/HandsOn_pdb4dna_vf.pdf}. --
 \newblock [Accessed Sep 1st, 2019]
 
-\bibitem[F.H(1986)]{Frank}
-\dinatlabel{F.H 1986} \textsc{F.H}, Attix:
-\newblock \emph{Introduction to Radiological Physics and Radiation Dosimetry}.
-\newblock WILEY‐VCH Verlag GmbH \& Co. KGaA, 1986. --
-\newblock ISBN 9780471011460
+\bibitem[Han und Yu(2009)]{rescells}
+\dinatlabel{Han und Yu 2009} \textsc{Han}, Wei~; \textsc{Yu}, Kwan~N.:
+\newblock Response of cells to ionizing radiation.
+\newblock In: \emph{Advances in Biomedical Sciences and Engineering}
+\newblock (2009).
+\newblock ISBN 9781608056071
 
-\bibitem[James und Francis(1953)]{jwfc}
-\dinatlabel{James und Francis 1953} \textsc{James}, Watson~; \textsc{Francis},
-  Crick:
-\newblock {Molecular Structure of Nucleid Acids}.
-\newblock In: \emph{Nature}
-\newblock 4356 (1953), S.~737--738
-
-\bibitem[Thormod und group~at UiO()]{Thormod}
-\dinatlabel{Thormod und group~at UiO } \textsc{Thormod}, Henriksen~;
+\bibitem[Henriksen und group~at UiO()]{Thormod}
+\dinatlabel{Henriksen und group~at UiO } \textsc{Henriksen}, Thormod~;
   \textsc{UiO}, Biophysics group~at:
 \newblock \emph{Radiation and Health}. --
 \newblock URL
@@ -65,12 +59,40 @@
   --
 \newblock [Accessed Sep 10, 2019]
 
-\bibitem[William~F. und Marianne~B.(2005)]{willmari}
-\dinatlabel{William~F. und Marianne~B. 2005} \textsc{William~F.}, Morgan~;
-  \textsc{Marianne~B.}, Sowa:
+\bibitem[Hutchinson(1966)]{Franklin}
+\dinatlabel{Hutchinson 1966} \textsc{Hutchinson}, Franklin:
+\newblock The Molecular Basis For Radiation on Cells.
+\newblock In: \emph{American Association for Cancer Research}
+\newblock (1966).
+\newblock ISBN 1538-7445
+
+\bibitem[Morgan und Sowa(2005)]{willmari}
+\dinatlabel{Morgan und Sowa 2005} \textsc{Morgan}, William~F.~; \textsc{Sowa},
+  Marianne~B.:
 \newblock Effects of ionizing radiation in nonirradiated cells.
 \newblock In: \emph{Proc Natl Acad Sci U S A}
 \newblock (2005). --
 \newblock URL \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1242332/}
+
+\bibitem[Podgorsak(2010)]{Podgorsak}
+\dinatlabel{Podgorsak 2010} \textsc{Podgorsak}, E.B:
+\newblock \emph{Radiation Physics for Medical Physicists}.
+\newblock Springer, 2010
+\newblock (biological and medical physics, biomedical engineering). --
+\newblock ISBN 978-3-642-00875-7
+
+\bibitem[song Wang u.\,a.(2018)song Wang, juan Wang und li~Qian]{cancer}
+\dinatlabel{song Wang u.\,a. 2018} \textsc{Wang}, Jin song~; \textsc{Wang}, Hai
+  juan~; \textsc{Qian}, Hai li:
+\newblock Biological effects of radiation on cancer cells.
+\newblock In: \emph{Military medical research}
+\newblock (2018)
+
+\bibitem[Watson und Crick(1953)]{jwfc}
+\dinatlabel{Watson und Crick 1953} \textsc{Watson}, James~; \textsc{Crick},
+  Francis:
+\newblock {Molecular Structure of Nucleid Acids}.
+\newblock In: \emph{Nature}
+\newblock 4356 (1953), S.~737--738
 
 \end{thebibliography}
