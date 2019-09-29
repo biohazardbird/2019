@@ -184,6 +184,7 @@ INPUT ./Figures/esbdb.png
 INPUT /home/jaiver/Documents/tesis/./Figures/base-piri.png
 INPUT ./Figures/base-piri.png
 INPUT ./Figures/base-piri.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
 INPUT ./Sections/Seccion_3.tex
 INPUT ./Sections/Seccion_3.tex
 INPUT /home/jaiver/Documents/tesis/./Figures/compton1.eps
@@ -231,7 +232,6 @@ INPUT ./Figures/electpp.eps
 INPUT ./Figures/electpp-eps-converted-to.pdf
 INPUT ./Figures/electpp-eps-converted-to.pdf
 INPUT ./Figures/electpp-eps-converted-to.pdf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
 INPUT /home/jaiver/Documents/tesis/./Figures/fotoneu.eps
 INPUT ./Figures/fotoneu.eps
 INPUT ./Figures/fotoneu.eps

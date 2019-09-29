@@ -69,6 +69,24 @@ ADN, posterior a su interacción con radiación ionizante}
 \setcounter{tocdepth}{5}
 \setcounter{secnumdepth}{5}
 
+\setcounter{tocdepth}{6}
+\setcounter{secnumdepth}{6}
+
+\makeatletter
+\newcounter{subsubparagraph}[subparagraph]
+\renewcommand\thesubsubparagraph{%
+  \thesubparagraph.\@arabic\c@subsubparagraph}
+\newcommand\subsubparagraph{%
+  \@startsection{subsubparagraph}    % counter
+    {6}                              % level
+    {\parindent}                     % indent
+    {3.25ex \@plus 1ex \@minus .2ex} % beforeskip
+    {-1em}                           % afterskip
+    {\normalfont\normalsize\bfseries}}
+\newcommand\l@subsubparagraph{\@dottedtocline{6}{13em}{5em}}
+\newcommand{\subsubparagraphmark}[1]{}
+\makeatother
+
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

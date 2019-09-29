@@ -9,39 +9,44 @@
 \contentsline {paragraph}{\numberline {2.2.1.2}Rompimientos dobles}{5}{paragraph.2.2.1.2}
 \contentsline {paragraph}{\numberline {2.2.1.3}Da\IeC {\~n}o base}{5}{paragraph.2.2.1.3}
 \contentsline {paragraph}{\numberline {2.2.1.4}Dimeridos de pirimidina}{6}{paragraph.2.2.1.4}
-\contentsline {subsection}{\numberline {2.3}Da\IeC {\~n}o Celular}{6}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.3}Da\IeC {\~n}o Celular}{7}{subsection.2.3}
 \contentsline {subsubsection}{\numberline {2.3.1}Reparaci\IeC {\'o}n del ADN}{7}{subsubsection.2.3.1}
-\contentsline {subparagraph}{\numberline {2.3.1.0.1}Reparaci\IeC {\'o}n por escisi\IeC {\'o}n}{7}{subparagraph.2.3.1.0.1}
-\contentsline {subsubsection}{\numberline {2.3.2}Mecanismos de defensa}{8}{subsubsection.2.3.2}
-\contentsline {subsubsection}{\numberline {2.3.3}Respuesta adaptativa}{8}{subsubsection.2.3.3}
-\contentsline {subsubsection}{\numberline {2.3.4}Efectos de radiaci\IeC {\'o}n ionizante en c\IeC {\'e}lulas no irradiadas}{8}{subsubsection.2.3.4}
-\contentsline {section}{\numberline {3}Interacci\IeC {\'o}n radiaci\IeC {\'o}n-materia}{9}{section.3}
-\contentsline {subsection}{\numberline {3.1}Interacciones de fotones en la materia}{9}{subsection.3.1}
-\contentsline {paragraph}{\numberline {3.1.0.1}Dispersi\IeC {\'o}n de Compton(Dispersi\IeC {\'o}n incoherente)}{9}{paragraph.3.1.0.1}
-\contentsline {paragraph}{\numberline {3.1.0.2}Dispersi\IeC {\'o}n de Rayleigh(Dispersi\IeC {\'o}n coherente)}{10}{paragraph.3.1.0.2}
-\contentsline {paragraph}{\numberline {3.1.0.3}Efecto Fotoelectrico}{10}{paragraph.3.1.0.3}
-\contentsline {paragraph}{\numberline {3.1.0.4}Producci\IeC {\'o}n de pares}{11}{paragraph.3.1.0.4}
-\contentsline {subparagraph}{\numberline {3.1.0.4.1}Producci\IeC {\'o}n nuclear de pares}{12}{subparagraph.3.1.0.4.1}
-\contentsline {subparagraph}{\numberline {3.1.0.4.2}Producci\IeC {\'o}n electr\IeC {\'o}nica de pares}{12}{subparagraph.3.1.0.4.2}
-\contentsline {paragraph}{\numberline {3.1.0.5}Reacciones fotonucleares}{12}{paragraph.3.1.0.5}
-\contentsline {subsection}{\numberline {3.2}Interacciones de part\IeC {\'\i }culas cargadas en la materia}{13}{subsection.3.2}
-\contentsline {paragraph}{\numberline {3.2.0.1}Colisi\IeC {\'o}n de radiaci\IeC {\'o}n($b\ll a$)}{14}{paragraph.3.2.0.1}
-\contentsline {subparagraph}{\numberline {3.2.0.1.1}Bremsstrahlung}{14}{subparagraph.3.2.0.1.1}
-\contentsline {paragraph}{\numberline {3.2.0.2}Colisi\IeC {\'o}n fuerte($b\approx a$)}{14}{paragraph.3.2.0.2}
-\contentsline {paragraph}{\numberline {3.2.0.3}Colisi\IeC {\'o}n debil($b\gg a$)}{15}{paragraph.3.2.0.3}
-\contentsline {section}{\numberline {4}GEANT4}{16}{section.4}
-\contentsline {subsection}{\numberline {4.1}PDB4DNA}{16}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}PDB}{16}{subsubsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.2}pdb reader}{17}{subsubsection.4.1.2}
-\contentsline {subsubsection}{\numberline {4.1.3}Visualizaci\IeC {\'o}n}{17}{subsubsection.4.1.3}
-\contentsline {subsubsection}{\numberline {4.1.4}Simulaci\IeC {\'o}n}{19}{subsubsection.4.1.4}
-\contentsline {subsubsection}{\numberline {4.1.5}Algoritmo para encontrar el atomo m\IeC {\'a}s cercano}{19}{subsubsection.4.1.5}
-\contentsline {subsubsection}{\numberline {4.1.6}Rompimientos simples y dobles}{19}{subsubsection.4.1.6}
-\contentsline {subsubsection}{\numberline {4.1.7}Archivos Relevantes}{21}{subsubsection.4.1.7}
-\contentsline {paragraph}{\numberline {4.1.7.1}PhysicsList}{21}{paragraph.4.1.7.1}
-\contentsline {paragraph}{\numberline {4.1.7.2}PDBlib}{22}{paragraph.4.1.7.2}
-\contentsline {paragraph}{\numberline {4.1.7.3}DetectorConstruction}{22}{paragraph.4.1.7.3}
-\contentsline {paragraph}{\numberline {4.1.7.4}SteppingAction}{22}{paragraph.4.1.7.4}
-\contentsline {section}{\numberline {5}Modificaciones PDB4DNA}{23}{section.5}
-\contentsline {section}{\numberline {A}Appendix}{24}{appendix.Alph1}
-\contentsline {section}{Referencias}{25}{section*.28}
+\contentsline {subparagraph}{\numberline {2.3.1.0.1}Reparaci\IeC {\'o}n por escisi\IeC {\'o}n}{8}{subparagraph.2.3.1.0.1}
+\contentsline {subparagraph}{\numberline {2.3.1.0.2}Reparaci\IeC {\'o}n de rompimientos dobles}{8}{subparagraph.2.3.1.0.2}
+\contentsline {subsubparagraph}{\numberline {2.3.1.0.2.1}Recombinaci\IeC {\'o}n homologa}{8}{subsubparagraph.2.3.1.0.2.1}
+\contentsline {subsubparagraph}{\numberline {2.3.1.0.2.2}Recombinaci\IeC {\'o}n no homologa}{8}{subsubparagraph.2.3.1.0.2.2}
+\contentsline {subsubsection}{\numberline {2.3.2}Mecanismos de defensa}{9}{subsubsection.2.3.2}
+\contentsline {paragraph}{\numberline {2.3.2.1}Contra las especies reactivas de ox\IeC {\'\i }geno}{9}{paragraph.2.3.2.1}
+\contentsline {paragraph}{\numberline {2.3.2.2}Un grupo de c\IeC {\'e}lulas da\IeC {\~n}adas por ADN}{9}{paragraph.2.3.2.2}
+\contentsline {paragraph}{\numberline {2.3.2.3}Puntos de control en el ciclo celular}{9}{paragraph.2.3.2.3}
+\contentsline {subsubsection}{\numberline {2.3.3}Respuesta adaptativa}{9}{subsubsection.2.3.3}
+\contentsline {section}{\numberline {3}Interacci\IeC {\'o}n radiaci\IeC {\'o}n-materia}{11}{section.3}
+\contentsline {subsection}{\numberline {3.1}Interacciones de fotones en la materia}{11}{subsection.3.1}
+\contentsline {paragraph}{\numberline {3.1.0.1}Dispersi\IeC {\'o}n de Compton(Dispersi\IeC {\'o}n incoherente)}{11}{paragraph.3.1.0.1}
+\contentsline {paragraph}{\numberline {3.1.0.2}Dispersi\IeC {\'o}n de Rayleigh(Dispersi\IeC {\'o}n coherente)}{12}{paragraph.3.1.0.2}
+\contentsline {paragraph}{\numberline {3.1.0.3}Efecto fotoel\IeC {\'e}ctrico}{12}{paragraph.3.1.0.3}
+\contentsline {paragraph}{\numberline {3.1.0.4}Producci\IeC {\'o}n de pares}{13}{paragraph.3.1.0.4}
+\contentsline {subparagraph}{\numberline {3.1.0.4.1}Producci\IeC {\'o}n nuclear de pares}{14}{subparagraph.3.1.0.4.1}
+\contentsline {subparagraph}{\numberline {3.1.0.4.2}Producci\IeC {\'o}n electr\IeC {\'o}nica de pares}{14}{subparagraph.3.1.0.4.2}
+\contentsline {paragraph}{\numberline {3.1.0.5}Reacciones fotonucleares}{14}{paragraph.3.1.0.5}
+\contentsline {subsection}{\numberline {3.2}Interacciones de part\IeC {\'\i }culas cargadas en la materia}{15}{subsection.3.2}
+\contentsline {paragraph}{\numberline {3.2.0.1}Colisi\IeC {\'o}n de radiaci\IeC {\'o}n($b\ll a$)}{16}{paragraph.3.2.0.1}
+\contentsline {subparagraph}{\numberline {3.2.0.1.1}Bremsstrahlung}{16}{subparagraph.3.2.0.1.1}
+\contentsline {paragraph}{\numberline {3.2.0.2}Colisi\IeC {\'o}n fuerte($b\approx a$)}{16}{paragraph.3.2.0.2}
+\contentsline {paragraph}{\numberline {3.2.0.3}Colisi\IeC {\'o}n debil($b\gg a$)}{17}{paragraph.3.2.0.3}
+\contentsline {section}{\numberline {4}GEANT4}{18}{section.4}
+\contentsline {subsection}{\numberline {4.1}PDB4DNA}{18}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}PDB}{18}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}pdb reader}{19}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.3}Visualizaci\IeC {\'o}n}{19}{subsubsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.4}Simulaci\IeC {\'o}n}{21}{subsubsection.4.1.4}
+\contentsline {subsubsection}{\numberline {4.1.5}Algoritmo para encontrar el atomo m\IeC {\'a}s cercano}{21}{subsubsection.4.1.5}
+\contentsline {subsubsection}{\numberline {4.1.6}Rompimientos simples y dobles}{21}{subsubsection.4.1.6}
+\contentsline {subsubsection}{\numberline {4.1.7}Archivos Relevantes}{23}{subsubsection.4.1.7}
+\contentsline {paragraph}{\numberline {4.1.7.1}PhysicsList}{23}{paragraph.4.1.7.1}
+\contentsline {paragraph}{\numberline {4.1.7.2}PDBlib}{24}{paragraph.4.1.7.2}
+\contentsline {paragraph}{\numberline {4.1.7.3}DetectorConstruction}{24}{paragraph.4.1.7.3}
+\contentsline {paragraph}{\numberline {4.1.7.4}SteppingAction}{24}{paragraph.4.1.7.4}
+\contentsline {section}{\numberline {5}Modificaciones PDB4DNA}{25}{section.5}
+\contentsline {section}{\numberline {A}Appendix}{26}{appendix.Alph1}
+\contentsline {section}{Referencias}{27}{section*.28}
