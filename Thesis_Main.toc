@@ -1,5 +1,5 @@
 \babel@toc {spanish}{}
-\contentsline {section}{\'{I}ndice de figuras}{III}{section*.5}
+\contentsline {section}{\'{I}ndice de figuras}{III}{section*.3}
 \contentsline {section}{\numberline {1}Justificaci\IeC {\'o}n}{1}{section.1}
 \contentsline {section}{\numberline {2}Una revisi\IeC {\'o}n al ADN}{2}{section.2}
 \contentsline {subsection}{\numberline {2.1}Historia del ADN}{2}{subsection.2.1}
@@ -48,6 +48,6 @@
 \contentsline {paragraph}{\numberline {4.1.7.3}DetectorConstruction}{24}{paragraph.4.1.7.3}
 \contentsline {paragraph}{\numberline {4.1.7.4}SteppingAction}{24}{paragraph.4.1.7.4}
 \contentsline {section}{\numberline {5}Modificaciones PDB4DNA}{25}{section.5}
-\contentsline {section}{\numberline {A}Anexo}{26}{appendix.Alph1}
-\contentsline {section}{\numberline {B}Anexo}{26}{appendix.Alph2}
-\contentsline {section}{Referencias}{29}{section*.28}
+\contentsline {section}{\numberline {A}Anexo}{27}{appendix.Alph1}
+\contentsline {section}{\numberline {B}Anexo}{27}{appendix.Alph2}
+\contentsline {section}{Referencias}{30}{section*.30}
