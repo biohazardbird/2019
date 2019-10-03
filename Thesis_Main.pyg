@@ -1,0 +1,18 @@
+for(int i = 0; i < residueListTemp->fNbAtom; i++)
+    {
+//EM
+      //////////////////////////////////////
+// Set Mass expressed in u
+      double ElementMass = 0.0;
+      if(AtomTemp->fElement == "H") ElementMass = 1.00784;
+else if(AtomTemp->fElement == "C") ElementMass = 12.0107;
+      else if(AtomTemp->fElement == "N") ElementMass = 14.0067;
+      else if(AtomTemp->fElement == "O") ElementMass = 15.999;
+      else if(AtomTemp->fElement == "P") ElementMass = 30.973762;
+      else if(AtomTemp->fElement == "S") ElementMass = 32.065;
+      else
+  {
+        G4cerr << "Element not recognized : " << AtomTemp->fElement << G4endl;
+        G4cerr << "Stop now" << G4endl;
+        exit(1);
+      }

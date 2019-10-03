@@ -48,5 +48,6 @@
 \contentsline {paragraph}{\numberline {4.1.7.3}DetectorConstruction}{24}{paragraph.4.1.7.3}
 \contentsline {paragraph}{\numberline {4.1.7.4}SteppingAction}{24}{paragraph.4.1.7.4}
 \contentsline {section}{\numberline {5}Modificaciones PDB4DNA}{25}{section.5}
-\contentsline {section}{\numberline {A}Appendix}{26}{appendix.Alph1}
-\contentsline {section}{Referencias}{27}{section*.28}
+\contentsline {section}{\numberline {A}Anexo}{26}{appendix.Alph1}
+\contentsline {section}{\numberline {B}Anexo}{26}{appendix.Alph2}
+\contentsline {section}{Referencias}{29}{section*.28}

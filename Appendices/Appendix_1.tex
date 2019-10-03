@@ -1,4 +1,103 @@
 \clearpage
-\section{Appendix}
+\section{Anexo}
 \label{app:A}
-...
+\lstset {language=C++}
+\begin{lstlisting}
+for(int i = 0; i < residueListTemp->fNbAtom; i++)
+    {
+//EM
+      //////////////////////////////////////
+// Set Mass expressed in u
+      double ElementMass = 0.0;
+      if(AtomTemp->fElement == "H") ElementMass = 1.00784;
+else if(AtomTemp->fElement == "C") ElementMass = 12.0107;
+      else if(AtomTemp->fElement == "N") ElementMass = 14.0067;
+      else if(AtomTemp->fElement == "O") ElementMass = 15.999;
+      else if(AtomTemp->fElement == "P") ElementMass = 30.973762;
+      else if(AtomTemp->fElement == "S") ElementMass = 32.065;
+      else
+  {
+        G4cerr << "Element not recognized : " << AtomTemp->fElement << G4endl;
+        G4cerr << "Stop now" << G4endl;
+        exit(1);
+      }
+\end{lstlisting}
+\section{Anexo}
+\label{app:B}
+\lstset {language=C++}
+\begin{lstlisting}
+//Center of mass calculation
+else if( OptCalc == 2 )
+  {
+    baryX += ElementMass * (AtomTemp->fX);
+    baryY += ElementMass * (AtomTemp->fY);
+    baryZ += ElementMass * (AtomTemp->fZ);
+    TotalMass += ElementMass;
+
+    if(residueListTemp->fResSeq == 1)
+      {
+  if(i == 0)
+    {
+      baryPhosX += ElementMass * (AtomTemp->fX);
+      baryPhosY += ElementMass * (AtomTemp->fY);
+      baryPhosZ += ElementMass * (AtomTemp->fZ);
+      TotalMassPhosResSeq1 += ElementMass;
+    }
+  else if(i < 8)
+    {
+      barySugX += ElementMass * (AtomTemp->fX);
+      barySugY += ElementMass * (AtomTemp->fY);
+      barySugZ += ElementMass * (AtomTemp->fZ);
+      TotalMassSugResSeq1 += ElementMass;
+    }
+  else
+    {
+      //hydrogen are placed at the end of the residue in a PDB file
+      //We don't want them for this calculation
+      if(AtomTemp->fElement != "H")
+        {
+    baryBaseX += ElementMass * (AtomTemp->fX);
+    baryBaseY += ElementMass * (AtomTemp->fY);
+    baryBaseZ += ElementMass * (AtomTemp->fZ);
+    TotalMassBaseResSeq1 += ElementMass;
+        }
+    }
+      } //// if(residueListTemp->fResSeq == 1)........
+    else  //if(residueListTemp->fResSeq != 1)
+      {
+  if(i < 4)
+    {
+      baryPhosX += ElementMass * (AtomTemp->fX);
+      baryPhosY += ElementMass * (AtomTemp->fY);
+      baryPhosZ += ElementMass * (AtomTemp->fZ);
+      TotalMassPhosResSeq2 += ElementMass;
+    }
+  else if(i < 11)
+    {
+      barySugX += ElementMass * (AtomTemp->fX);
+      barySugY += ElementMass * (AtomTemp->fY);
+      barySugZ += ElementMass * (AtomTemp->fZ);
+      TotalMassSugResSeq2 += ElementMass;
+    }
+  else
+    {
+      //hydrogen are placed at the end of the residue in a PDB file
+      //We don't want them for this calculation
+      if(AtomTemp->fElement != "H")
+        { // break;
+    baryBaseX += ElementMass * (AtomTemp->fX);
+    baryBaseY += ElementMass * (AtomTemp->fY);
+    baryBaseZ += ElementMass * (AtomTemp->fZ);
+    TotalMassBaseResSeq2 += ElementMass;
+        }
+    }
+
+      } // //if(residueListTemp->fResSeq != 1).......
+  } //else if( OptCalc == 2 ).....
+//Neither OpcCalc=1 nor OptCalc=2
+else
+  G4cerr << "Something is fishy!! : "  << G4endl;
+
+AtomTemp = AtomTemp->GetNext();
+    } //end of for (  i=0 ; i < residueListTemp->nbAtom ; i++)
+\end{lstlisting}
