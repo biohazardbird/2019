@@ -1,6 +1,43 @@
 \clearpage
-\section{Section Two}
-\label{sec:Section_Name}
-...
-\subsection{Exemplary Figure}
-\label{subsec:Section_Name/fig}
+\section{Resultados}
+\label{sec:res}
+
+\begin{figure}
+\centering
+\begin{subfigure}{.6\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth]{./Figures/a.png}
+  \caption{Barycentros}
+  \label{fig:sub1}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth]{./Figures/b.png}
+  \caption{Centros de masa}
+  \label{fig:sub2}
+\end{subfigure}
+\caption{Comparación barycentros y centros de masa en Geant4}
+\label{fig:test}
+\end{figure}
+
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\linewidth]{./Figures/can1.eps}
+    \caption[Barycentros vs centros de masa en x]{Barycentros vs centros de masa en x} % se puede realizar grafico en vmd}
+    \label{fig:canx}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\linewidth]{./Figures/can2.eps}
+    \caption[Barycentros vs centros de masa en y]{Barycentros vs centros de masa en y}
+    \label{fig:cany}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\linewidth]{./Figures/can3.eps}
+  \caption[Barycentros vs centros de masa en z]{Barycentros vs centros de masa en z}
+    \label{fig:canz}
+\end{figure}

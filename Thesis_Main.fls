@@ -311,6 +311,8 @@ INPUT ./Figures/flujo.png
 INPUT ./Figures/flujo.png
 INPUT ./Sections/Seccion_5.tex
 INPUT ./Sections/Seccion_5.tex
+INPUT ./Sections/Seccion_6.tex
+INPUT ./Sections/Seccion_6.tex
 INPUT /home/jaiver/Documents/tesis/./Figures/a.png
 INPUT ./Figures/a.png
 INPUT ./Figures/a.png
@@ -345,6 +347,8 @@ INPUT ./Figures/can3.eps
 INPUT ./Figures/can3-eps-converted-to.pdf
 INPUT ./Figures/can3-eps-converted-to.pdf
 INPUT ./Figures/can3-eps-converted-to.pdf
+INPUT ./Sections/Seccion_7.tex
+INPUT ./Sections/Seccion_7.tex
 INPUT /home/jaiver/Documents/tesis/Appendices/Appendix_1.tex
 INPUT /home/jaiver/Documents/tesis/Appendices/Appendix_1.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
