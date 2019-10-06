@@ -4,55 +4,55 @@
 \BOOKMARK [2][-]{subsection.1.2}{Objetivos}{section.1}% 4
 \BOOKMARK [3][-]{subsubsection.1.2.1}{Objetivo General}{subsection.1.2}% 5
 \BOOKMARK [3][-]{subsubsection.1.2.2}{Objetivos Espec\355ficos}{subsection.1.2}% 6
-\BOOKMARK [1][-]{section.2}{Una revisi\363n al ADN}{}% 7
-\BOOKMARK [2][-]{subsection.2.1}{Historia del ADN}{section.2}% 8
-\BOOKMARK [2][-]{subsection.2.2}{Estructura del ADN}{section.2}% 9
-\BOOKMARK [3][-]{subsubsection.2.2.1}{Da\361o inducido por radiaci\363n al ADN}{subsection.2.2}% 10
-\BOOKMARK [4][-]{paragraph.2.2.1.1}{Rompimientos simples}{subsubsection.2.2.1}% 11
-\BOOKMARK [4][-]{paragraph.2.2.1.2}{Rompimientos dobles}{subsubsection.2.2.1}% 12
-\BOOKMARK [4][-]{paragraph.2.2.1.3}{Da\361o base}{subsubsection.2.2.1}% 13
-\BOOKMARK [4][-]{paragraph.2.2.1.4}{Dimeridos de pirimidina}{subsubsection.2.2.1}% 14
-\BOOKMARK [2][-]{subsection.2.3}{Da\361o Celular}{section.2}% 15
-\BOOKMARK [3][-]{subsubsection.2.3.1}{Reparaci\363n del ADN}{subsection.2.3}% 16
-\BOOKMARK [4][-]{paragraph.2.3.1.1}{Reparaci\363n por escisi\363n}{subsubsection.2.3.1}% 17
-\BOOKMARK [4][-]{paragraph.2.3.1.2}{Reparaci\363n de rompimientos dobles}{subsubsection.2.3.1}% 18
-\BOOKMARK [5][-]{subparagraph.2.3.1.2.1}{Recombinaci\363n homologa}{paragraph.2.3.1.2}% 19
-\BOOKMARK [5][-]{subparagraph.2.3.1.2.2}{Recombinaci\363n no homologa}{paragraph.2.3.1.2}% 20
-\BOOKMARK [3][-]{subsubsection.2.3.2}{Mecanismos de defensa}{subsection.2.3}% 21
-\BOOKMARK [4][-]{paragraph.2.3.2.1}{Contra las especies reactivas de ox\355geno}{subsubsection.2.3.2}% 22
-\BOOKMARK [4][-]{paragraph.2.3.2.2}{Un grupo de c\351lulas da\361adas por ADN}{subsubsection.2.3.2}% 23
-\BOOKMARK [4][-]{paragraph.2.3.2.3}{Puntos de control en el ciclo celular}{subsubsection.2.3.2}% 24
-\BOOKMARK [3][-]{subsubsection.2.3.3}{Respuesta adaptativa}{subsection.2.3}% 25
-\BOOKMARK [1][-]{section.3}{Interacci\363n radiaci\363n-materia}{}% 26
-\BOOKMARK [2][-]{subsection.3.1}{Interacciones de fotones en la materia}{section.3}% 27
-\BOOKMARK [3][-]{subsubsection.3.1.1}{Dispersi\363n de Compton\(Dispersi\363n incoherente\)}{subsection.3.1}% 28
-\BOOKMARK [3][-]{subsubsection.3.1.2}{Dispersi\363n de Rayleigh\(Dispersi\363n coherente\)}{subsection.3.1}% 29
-\BOOKMARK [3][-]{subsubsection.3.1.3}{Efecto fotoel\351ctrico}{subsection.3.1}% 30
-\BOOKMARK [3][-]{subsubsection.3.1.4}{Producci\363n de pares}{subsection.3.1}% 31
-\BOOKMARK [4][-]{paragraph.3.1.4.1}{Producci\363n nuclear de pares}{subsubsection.3.1.4}% 32
-\BOOKMARK [4][-]{paragraph.3.1.4.2}{Producci\363n electr\363nica de pares}{subsubsection.3.1.4}% 33
-\BOOKMARK [4][-]{paragraph.3.1.4.3}{Reacciones fotonucleares}{subsubsection.3.1.4}% 34
-\BOOKMARK [3][-]{subsubsection.3.1.5}{Interacciones de part\355culas cargadas en la materia}{subsection.3.1}% 35
-\BOOKMARK [4][-]{paragraph.3.1.5.1}{Colisi\363n de radiaci\363n\(ba\)}{subsubsection.3.1.5}% 36
-\BOOKMARK [4][-]{paragraph.3.1.5.2}{Bremsstrahlung}{subsubsection.3.1.5}% 37
-\BOOKMARK [4][-]{paragraph.3.1.5.3}{Colisi\363n fuerte\(ba\)}{subsubsection.3.1.5}% 38
-\BOOKMARK [4][-]{paragraph.3.1.5.4}{Colisi\363n debil\(ba\)}{subsubsection.3.1.5}% 39
-\BOOKMARK [1][-]{section.4}{GEANT4}{}% 40
-\BOOKMARK [2][-]{subsection.4.1}{PDB4DNA}{section.4}% 41
-\BOOKMARK [3][-]{subsubsection.4.1.1}{PDB}{subsection.4.1}% 42
-\BOOKMARK [3][-]{subsubsection.4.1.2}{pdb reader}{subsection.4.1}% 43
-\BOOKMARK [3][-]{subsubsection.4.1.3}{Visualizaci\363n}{subsection.4.1}% 44
-\BOOKMARK [3][-]{subsubsection.4.1.4}{Simulaci\363n}{subsection.4.1}% 45
-\BOOKMARK [3][-]{subsubsection.4.1.5}{Algoritmo para encontrar el atomo m\341s cercano}{subsection.4.1}% 46
-\BOOKMARK [3][-]{subsubsection.4.1.6}{Rompimientos simples y dobles}{subsection.4.1}% 47
-\BOOKMARK [3][-]{subsubsection.4.1.7}{Archivos Relevantes}{subsection.4.1}% 48
-\BOOKMARK [4][-]{paragraph.4.1.7.1}{PhysicsList}{subsubsection.4.1.7}% 49
-\BOOKMARK [4][-]{paragraph.4.1.7.2}{PDBlib}{subsubsection.4.1.7}% 50
-\BOOKMARK [4][-]{paragraph.4.1.7.3}{DetectorConstruction}{subsubsection.4.1.7}% 51
-\BOOKMARK [4][-]{paragraph.4.1.7.4}{SteppingAction}{subsubsection.4.1.7}% 52
-\BOOKMARK [1][-]{section.5}{Modificaciones PDB4DNA}{}% 53
-\BOOKMARK [1][-]{section.6}{Resultados}{}% 54
-\BOOKMARK [1][-]{section.7}{Conclusiones}{}% 55
+\BOOKMARK [3][-]{subsubsection.1.2.3}{Resultados alcanzados}{subsection.1.2}% 7
+\BOOKMARK [1][-]{section.2}{Una revisi\363n al ADN}{}% 8
+\BOOKMARK [2][-]{subsection.2.1}{Historia del ADN}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.2}{Estructura del ADN}{section.2}% 10
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Da\361o inducido por radiaci\363n al ADN}{subsection.2.2}% 11
+\BOOKMARK [4][-]{paragraph.2.2.1.1}{Rompimientos simples}{subsubsection.2.2.1}% 12
+\BOOKMARK [4][-]{paragraph.2.2.1.2}{Rompimientos dobles}{subsubsection.2.2.1}% 13
+\BOOKMARK [4][-]{paragraph.2.2.1.3}{Da\361o base}{subsubsection.2.2.1}% 14
+\BOOKMARK [4][-]{paragraph.2.2.1.4}{Dimeridos de pirimidina}{subsubsection.2.2.1}% 15
+\BOOKMARK [2][-]{subsection.2.3}{Da\361o Celular}{section.2}% 16
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Reparaci\363n del ADN}{subsection.2.3}% 17
+\BOOKMARK [4][-]{paragraph.2.3.1.1}{Reparaci\363n por escisi\363n}{subsubsection.2.3.1}% 18
+\BOOKMARK [4][-]{paragraph.2.3.1.2}{Reparaci\363n de rompimientos dobles}{subsubsection.2.3.1}% 19
+\BOOKMARK [5][-]{subparagraph.2.3.1.2.1}{Recombinaci\363n homologa}{paragraph.2.3.1.2}% 20
+\BOOKMARK [5][-]{subparagraph.2.3.1.2.2}{Recombinaci\363n no homologa}{paragraph.2.3.1.2}% 21
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Mecanismos de defensa}{subsection.2.3}% 22
+\BOOKMARK [4][-]{paragraph.2.3.2.1}{Contra las especies reactivas de ox\355geno}{subsubsection.2.3.2}% 23
+\BOOKMARK [4][-]{paragraph.2.3.2.2}{Un grupo de c\351lulas da\361adas por ADN}{subsubsection.2.3.2}% 24
+\BOOKMARK [4][-]{paragraph.2.3.2.3}{Puntos de control en el ciclo celular}{subsubsection.2.3.2}% 25
+\BOOKMARK [3][-]{subsubsection.2.3.3}{Respuesta adaptativa}{subsection.2.3}% 26
+\BOOKMARK [1][-]{section.3}{Interacci\363n radiaci\363n-materia}{}% 27
+\BOOKMARK [2][-]{subsection.3.1}{Interacciones de fotones en la materia}{section.3}% 28
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Dispersi\363n de Compton\(Dispersi\363n incoherente\)}{subsection.3.1}% 29
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Dispersi\363n de Rayleigh\(Dispersi\363n coherente\)}{subsection.3.1}% 30
+\BOOKMARK [3][-]{subsubsection.3.1.3}{Efecto fotoel\351ctrico}{subsection.3.1}% 31
+\BOOKMARK [3][-]{subsubsection.3.1.4}{Producci\363n de pares}{subsection.3.1}% 32
+\BOOKMARK [4][-]{paragraph.3.1.4.1}{Producci\363n nuclear de pares}{subsubsection.3.1.4}% 33
+\BOOKMARK [4][-]{paragraph.3.1.4.2}{Producci\363n electr\363nica de pares}{subsubsection.3.1.4}% 34
+\BOOKMARK [4][-]{paragraph.3.1.4.3}{Reacciones fotonucleares}{subsubsection.3.1.4}% 35
+\BOOKMARK [3][-]{subsubsection.3.1.5}{Interacciones de part\355culas cargadas en la materia}{subsection.3.1}% 36
+\BOOKMARK [4][-]{paragraph.3.1.5.1}{Colisi\363n de radiaci\363n\(ba\)}{subsubsection.3.1.5}% 37
+\BOOKMARK [4][-]{paragraph.3.1.5.2}{Bremsstrahlung}{subsubsection.3.1.5}% 38
+\BOOKMARK [4][-]{paragraph.3.1.5.3}{Colisi\363n fuerte\(ba\)}{subsubsection.3.1.5}% 39
+\BOOKMARK [4][-]{paragraph.3.1.5.4}{Colisi\363n debil\(ba\)}{subsubsection.3.1.5}% 40
+\BOOKMARK [1][-]{section.4}{GEANT4}{}% 41
+\BOOKMARK [2][-]{subsection.4.1}{PDB4DNA}{section.4}% 42
+\BOOKMARK [3][-]{subsubsection.4.1.1}{PDB}{subsection.4.1}% 43
+\BOOKMARK [3][-]{subsubsection.4.1.2}{pdb reader}{subsection.4.1}% 44
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Visualizaci\363n}{subsection.4.1}% 45
+\BOOKMARK [3][-]{subsubsection.4.1.4}{Simulaci\363n}{subsection.4.1}% 46
+\BOOKMARK [3][-]{subsubsection.4.1.5}{Algoritmo para encontrar el atomo m\341s cercano}{subsection.4.1}% 47
+\BOOKMARK [3][-]{subsubsection.4.1.6}{Rompimientos simples y dobles}{subsection.4.1}% 48
+\BOOKMARK [3][-]{subsubsection.4.1.7}{Archivos Relevantes}{subsection.4.1}% 49
+\BOOKMARK [4][-]{paragraph.4.1.7.1}{PhysicsList}{subsubsection.4.1.7}% 50
+\BOOKMARK [4][-]{paragraph.4.1.7.2}{PDBlib}{subsubsection.4.1.7}% 51
+\BOOKMARK [4][-]{paragraph.4.1.7.3}{DetectorConstruction}{subsubsection.4.1.7}% 52
+\BOOKMARK [4][-]{paragraph.4.1.7.4}{SteppingAction}{subsubsection.4.1.7}% 53
+\BOOKMARK [1][-]{section.5}{Explorando a PDB4DNA}{}% 54
+\BOOKMARK [1][-]{section.6}{Conclusiones}{}% 55
 \BOOKMARK [1][-]{appendix.Alph1}{Anexo}{}% 56
 \BOOKMARK [1][-]{appendix.Alph2}{Anexo}{}% 57
-\BOOKMARK [1][-]{section*.30}{Referencias}{}% 58
+\BOOKMARK [1][-]{section*.32}{Referencias}{}% 58
