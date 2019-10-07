@@ -4,9 +4,6 @@
 \section{Explorando a PDB4DNA}
 \label{sec:MODIFI}
 
-Deposición de energía/partículas anteriores graficas gnuplot.
-energía bases?
-
 \begin{figure}
 \centering
 \begin{subfigure}{.5\textwidth}
@@ -120,7 +117,7 @@ energía bases?
 \begin{subfigure}{.5\textwidth}
   \centering
   \includegraphics[width=.78\linewidth]{./Figures/a.png}
-  \caption{Barycentros}
+  \caption{Esferas Ligadas(Baricentros)}
   \label{fig:su1}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
@@ -129,7 +126,7 @@ energía bases?
   \caption{Centros de masa}
   \label{fig:su2}
 \end{subfigure}
-\caption{Comparación barycentros y centros de masa en Geant4}
+\caption{Comparación baricentros y centros de masa en Geant4}
 \label{fig:test3}
 \end{figure}
 
@@ -137,21 +134,21 @@ energía bases?
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=1\linewidth]{./Figures/can1.eps}
-    \caption[Barycentros vs centros de masa en x]{Barycentros vs centros de masa en x} % se puede realizar grafico en vmd}
+    \caption[Esferas Ligadas(Baricentros) vs centros de masa en x]{Esferas Ligadas(Baricentros) vs centros de masa en x} % se puede realizar grafico en vmd}
     \label{fig:canx}
 \end{figure}
 
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=1\linewidth]{./Figures/can2.eps}
-    \caption[Barycentros vs centros de masa en y]{Barycentros vs centros de masa en y}
+    \caption[Esferas Ligadas(Baricentros) vs centros de masa en y]{Esferas Ligadas(Baricentros) vs centros de masa en y}
     \label{fig:cany}
 \end{figure}
 
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=1\linewidth]{./Figures/can3.eps}
-  \caption[Barycentros vs centros de masa en z]{Barycentros vs centros de masa en z}
+  \caption[Esferas Ligadas(Baricentros) vs centros de masa en z]{Esferas Ligadas(Baricentros) vs centros de masa en z}
     \label{fig:canz}
 \end{figure}
 
@@ -160,4 +157,4 @@ hablar algo de TER Y limitaciones
 Hacer modificaciones de TER
 mismas particulas?
 centros de masa
-PDB4DNA fue modificado de tal manera que en vez de hacer uso de las esferas ligadas a partir de barycentros usara centros de masa, para esto se uso el archivo PDBlib, primero se definió la masa de los diferentes elementos (véase anexo ~\ref{app:A}),y luego se usaron las clases bases ya definidas en PDBlib para hacer los respectivos cálculos de centros de masa(véase anexo ~\ref{app:B}).\\
+PDB4DNA fue modificado de tal manera que en vez de hacer uso de las esferas ligadas a partir de baricentros usara centros de masa, para esto se uso el archivo PDBlib, primero se definió la masa de los diferentes elementos (véase anexo ~\ref{app:A}),y luego se usaron las clases bases ya definidas en PDBlib para hacer los respectivos cálculos de centros de masa(véase anexo ~\ref{app:B}).\\
