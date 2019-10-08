@@ -11,23 +11,28 @@
 \contentsline {figure}{\numberline {10}{\ignorespaces Reacci\IeC {\'o}n fotonuclear}}{16}{figure.caption.13}
 \contentsline {figure}{\numberline {11}{\ignorespaces Colisi\IeC {\'o}n de radiaci\IeC {\'o}n}}{17}{figure.caption.14}
 \contentsline {figure}{\numberline {12}{\ignorespaces Colisi\IeC {\'o}n fuerte\relax }}{18}{figure.caption.15}
-\contentsline {figure}{\numberline {13}{\ignorespaces Colisi\IeC {\'o}n d\IeC {\'e}bil o suave\relax }}{19}{figure.caption.16}
-\contentsline {figure}{\numberline {14}{\ignorespaces Esquema de un PDB}}{21}{figure.caption.17}
-\contentsline {figure}{\numberline {15}{\ignorespaces Barycentros\relax }}{22}{figure.caption.18}
-\contentsline {figure}{\numberline {16}{\ignorespaces VDW\relax }}{22}{figure.caption.19}
-\contentsline {figure}{\numberline {17}{\ignorespaces Residuos\relax }}{22}{figure.caption.20}
-\contentsline {figure}{\numberline {18}{\ignorespaces Caja delimitadora}}{23}{figure.caption.21}
-\contentsline {figure}{\numberline {19}{\ignorespaces Esferas ligadas y nucle\IeC {\'o}tidos}}{24}{figure.caption.22}
-\contentsline {figure}{\numberline {20}{\ignorespaces Esquema rompimientos simples y dobles en el ADN}}{24}{figure.caption.23}
-\contentsline {figure}{\numberline {21}{\ignorespaces Histograma de Root}}{25}{figure.caption.24}
-\contentsline {figure}{\numberline {22}{\ignorespaces Diagrama de flujo de PDB4DNA}}{25}{figure.caption.25}
-\contentsline {figure}{\numberline {23}{\ignorespaces Rompimientos simples y dobles electr\IeC {\'o}n(e-)}}{28}{figure.caption.26}
-\contentsline {figure}{\numberline {24}{\ignorespaces Rompimientos simples y dobles electr\IeC {\'o}n(positron)}}{29}{figure.caption.27}
-\contentsline {figure}{\numberline {25}{\ignorespaces Rompimientos simples y dobles electr\IeC {\'o}n(positron)}}{30}{figure.caption.28}
-\contentsline {figure}{\numberline {26}{\ignorespaces Rompimientos simples y dobles electr\IeC {\'o}n(positron)}}{31}{figure.caption.29}
-\contentsline {figure}{\numberline {27}{\ignorespaces Esferas Ligadas(Baricentros) vs centros de masa en x}}{31}{figure.caption.30}
-\contentsline {figure}{\numberline {28}{\ignorespaces Esferas Ligadas(Baricentros) vs centros de masa en y}}{32}{figure.caption.31}
-\contentsline {figure}{\numberline {29}{\ignorespaces Esferas Ligadas(Baricentros) vs centros de masa en z}}{32}{figure.caption.32}
-\contentsline {figure}{\numberline {30}{\ignorespaces Esferas Ligadas(Baricentros) vs centros de masa en x}}{33}{figure.caption.33}
-\contentsline {figure}{\numberline {31}{\ignorespaces Esferas Ligadas(Baricentros) vs centros de masa en y}}{33}{figure.caption.34}
-\contentsline {figure}{\numberline {32}{\ignorespaces Esferas Ligadas(Baricentros) vs centros de masa en z}}{34}{figure.caption.35}
+\contentsline {figure}{\numberline {13}{\ignorespaces Colisi\IeC {\'o}n d\IeC {\'e}bil o suave\relax }}{18}{figure.caption.16}
+\contentsline {figure}{\numberline {14}{\ignorespaces Esquema de un PDB}}{20}{figure.caption.17}
+\contentsline {figure}{\numberline {15}{\ignorespaces Barycentros\relax }}{21}{figure.caption.18}
+\contentsline {figure}{\numberline {16}{\ignorespaces VDW\relax }}{21}{figure.caption.19}
+\contentsline {figure}{\numberline {17}{\ignorespaces Residuos\relax }}{21}{figure.caption.20}
+\contentsline {figure}{\numberline {18}{\ignorespaces Caja delimitadora}}{22}{figure.caption.21}
+\contentsline {figure}{\numberline {19}{\ignorespaces Esferas ligadas y nucle\IeC {\'o}tidos}}{23}{figure.caption.22}
+\contentsline {figure}{\numberline {20}{\ignorespaces Esquema rompimientos simples y dobles en el ADN}}{23}{figure.caption.23}
+\contentsline {figure}{\numberline {21}{\ignorespaces Histograma de Root}}{24}{figure.caption.24}
+\contentsline {figure}{\numberline {22}{\ignorespaces Diagrama de flujo de PDB4DNA}}{24}{figure.caption.25}
+\contentsline {figure}{\numberline {23}{\ignorespaces Mol\IeC {\'e}cula de ADN 1ZBB}}{26}{figure.caption.26}
+\contentsline {figure}{\numberline {24}{\ignorespaces Mol\IeC {\'e}cula de ADN 1FZX}}{26}{figure.caption.27}
+\contentsline {figure}{\numberline {25}{\ignorespaces Puntos de deposici\IeC {\'o}n de energ\IeC {\'\i }a 1ZBB}}{28}{figure.caption.28}
+\contentsline {figure}{\numberline {26}{\ignorespaces Rompimientos simples y dobles para 1ZBB ($e-$)\relax }}{29}{figure.caption.29}
+\contentsline {figure}{\numberline {27}{\ignorespaces Rompimientos simples y dobles para 1ZBB ($proton$)\relax }}{30}{figure.caption.30}
+\contentsline {figure}{\numberline {28}{\ignorespaces Rompimientos simples y dobles para 1FZX ($e-$)\relax }}{31}{figure.caption.31}
+\contentsline {figure}{\numberline {29}{\ignorespaces Rompimientos simples y dobles para 1FZX ($proton$)\relax }}{32}{figure.caption.32}
+\contentsline {figure}{\numberline {30}{\ignorespaces Comparaci\IeC {\'o}n de centros de masa y baricentros en Geant4 1ZBB}}{33}{figure.caption.33}
+\contentsline {figure}{\numberline {31}{\ignorespaces Comparaci\IeC {\'o}n de centros de masa y baricentros en Geant4 1FZX}}{34}{figure.caption.34}
+\contentsline {figure}{\numberline {32}{\ignorespaces Baricentros en $x$ vs centros de masa en $x$ para 1ZBB}}{34}{figure.caption.35}
+\contentsline {figure}{\numberline {33}{\ignorespaces Baricentros en $y$ vs centros de masa en $y$ para 1ZBB}}{35}{figure.caption.36}
+\contentsline {figure}{\numberline {34}{\ignorespaces Baricentros en $z$ vs centros de masa en $z$ para 1ZBB}}{35}{figure.caption.37}
+\contentsline {figure}{\numberline {35}{\ignorespaces Baricentros en $x$ vs centros de masa en $x$ para 1FZX}}{36}{figure.caption.38}
+\contentsline {figure}{\numberline {36}{\ignorespaces Baricentros en $y$ vs centros de masa en $y$ para 1FZX}}{36}{figure.caption.39}
+\contentsline {figure}{\numberline {37}{\ignorespaces Baricentros en $z$ vs centros de masa en $z$ para 1FZX}}{37}{figure.caption.40}
