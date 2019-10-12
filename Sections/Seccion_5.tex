@@ -16,7 +16,7 @@
     \caption[Molécula de ADN 1FZX]{Molécula de ADN 1FZX vista en VMD}
     \label{fig:1fzx}
 \end{figure}
-Con tal de entender el código de pdb4dna, sus alcances, y resultados, se hace necesario el explorarlo. Se generaron histogramas de deposición de energía junto con los rompimientos simples y dobles para dos diferentes moléculas de ADN, 1ZBB(véase figura ~\ref{fig:1zbb} ) y 1FZX(véase figura ~\ref{fig:1fzx}), estos se realizaron con 10000 eventos con diferentes valores de energía para un electrón y un baryon con nombres en Geant4 e- y proton respectivamente, véase figuras ~\ref{fig:e}, ~\ref{fig:p}, ~\ref{fig:e2}, ~\ref{fig:p2}, de estos histogramas es interesante notar como los rompimientos simples y doble aumentan hasta cierto valor y luego empiezan a reducirse, esto puede deberse a diversos factores como el tamaño de la molécula y en cuantos enlaces se puede depositar la energía, también es necesario mencionar que en el stepping action la energía y las posiciones donde se deposita la energía se obtiene mediante la librería step y para ser precisos con la siguiente linea de código:
+Con tal de entender el código de pdb4dna, sus alcances, y resultados, se hace necesario el explorarlo, para esto se hizo uso de dos diferentes moléculas de ADN, 1ZBB(véase figura ~\ref{fig:1zbb} ) y 1FZX(véase figura ~\ref{fig:1fzx}), Se generaron histogramas de deposición de energía junto con los rompimientos simples y dobles, estos se realizaron con 10000 eventos con diferentes valores de energía para un electrón y un baryon con nombres en Geant4 e- y proton respectivamente, véase figuras ~\ref{fig:e}, ~\ref{fig:p}, ~\ref{fig:e2}, ~\ref{fig:p2}, de estos histogramas es interesante notar como los rompimientos simples y doble aumentan hasta cierto valor y luego empiezan a reducirse, esto puede deberse a diversos factores como el tamaño de la molécula y en cuantos enlaces se puede depositar la energía, también es necesario mencionar que en el stepping action la energía y las posiciones donde se deposita la energía se obtiene mediante la librería step y para ser precisos con la siguiente linea de código:
 \lstset {language=C++}
 \begin{lstlisting}
 // Get position and edep of current step
@@ -27,7 +27,7 @@ Con tal de entender el código de pdb4dna, sus alcances, y resultados, se hace n
 G4double edepStep = theStep->GetTotalEnergyDeposit()/eV;
 \end{lstlisting}
 
-Al graficar los baricentros contra estas deposiciones de la energía debido a la partícula(figura ~\ref{fig:edep}) se puede ver en que partes se esta depositando la energía, bien lo que hace el código es filtrar la energía para que el programa genere un histograma de deposición de energía en donde solo se deposito energía en el fosfato o el azúcar, esto lo hace mediante varias lineas de código,primero PDBlic se encarga de leer el pdb y luego de la división de base fosfato y azúcar, mediante el código:
+Al graficar los baricentros de 1ZBB contra estas deposiciones de la energía debido a la partícula(figura ~\ref{fig:edep}) se puede ver en que partes se esta depositando la energía para cierto evento con ciertas condiciones, nótese que  bien lo que hace el código es filtrar la energía para que el programa genere un histograma de deposición de energía en donde solo se deposito energía en el fosfato o el azúcar, esto lo hace mediante varias lineas de código, primero PDBlic se encarga de leer el pdb y luego de la división de base fosfato y azúcar, mediante el código:
 
 \lstset {language=C++}
 \begin{lstlisting}
@@ -44,7 +44,7 @@ if(residueListTemp->fResSeq == 1)
               else BSP = 2; //"Base"
             }
 \end{lstlisting}
-se encarga de dar un valor numerico al fosfato 0, al azucar 1 y a la base 0, luego en el stepping action si se encuentra un golpe ya sea en el azucar o en el fosfato se retorna ese valor de energía, esto se hace mediante:
+Mediante esto se le da un valor numérico al fosfato 0, al azúcar 1 y a la base 0, luego en el stepping action si se encuentra un golpe ya sea en el azúcar o en el fosfato se retorna ese valor de energía, esto se hace mediante:
 \lstset {language=C++}
 \begin{lstlisting}
 int numStrand=0;
@@ -69,9 +69,10 @@ int numStrand=0;
     }
     \end{lstlisting}
 
-    Esto serviría en primera instancia, reemplazando los valores, para analizar daño de las bases, pero debido a que no tenemos noción de como se evaluá el daño por radiación en bases no se realizara, por ahora.
+    De modificarse lo anterior reemplazando por intResidue=2 se puede analizar deposición de energía en las bases, pero debido a que no tenemos noción de como se evaluá el daño por radiación en bases, esto no se llevara acabo por el momento.\\
 
-    
+
+
 \begin{figure}
 \centering
 \begin{subfigure}{.5\textwidth}
@@ -314,8 +315,10 @@ int numStrand=0;
 \label{fig:p2}
 \end{figure}
 
+Por otro lado se tienen las limitaciones de PDB4DNA, primero que nada tiene la limitación de como leer un archivo pdb, se basa en el uso del texto "TER" encontrando en estos archivos para leer cada cadena de ADN, el problema con esto radica en que no todos los archivos de este tipo contienen este comando, además de que por el momento este numero solo permite hacer uso de moléculas de ADN de dos cadenas y filtra el resto de la molécula para que no sea leída, esto nos podemos dar cuenta al comparar la figura de 1ZBB en Geant4(figura ~\ref{h}) y la vista en vmd(figura ~\ref{fig:1zbb}) como podemos observar la vista en Geant4 no tiene en cuenta los átomos que se encuentran al interior de los anillos de 1ZBB, a pesar de ser capaz de leer moléculas diferentes a las de ADN, muchas veces no muestra estas moléculas correctamente debido también en parte a leer el termino TER, aunque de modificarse correctamente se debe hacer posible la lectura y evaluación de estás moléculas.\\
 
 
+Por ultimo PDB4DNA fue modificado de tal manera que en vez de hacer uso de las esferas ligadas a partir de baricentros hiciera uso de centros de masa, para esto se uso el archivo PDBlib, primero se definió la masa de los diferentes elementos (véase anexo ~\ref{app:A}),y luego se usaron las clases bases ya definidas en PDBlib para hacer los respectivos cálculos de centros de masa(véase anexo), al hacer esto y visualizar en Geant4 no se nota ningún cambio alguno para ninguna de las dos moléculas (véase figuras ~\ref{fig:sub66} y ~\ref{fig:sub666}), sin embargo al hacer histogramas de Root si es posible observar cambios respecto a las posiciones que podrían alterar resultados en las deposiciones de energía y en consecuencia en los rompimientos dobles, esto puede ser apreciado para cada molécula en las figuras
 
 \begin{figure}
 \centering
@@ -458,4 +461,4 @@ hablar algo de TER Y limitaciones
 Hacer modificaciones de TER
 mismas partículas?
 centros de masa
-PDB4DNA fue modificado de tal manera que en vez de hacer uso de las esferas ligadas a partir de baricentros usara centros de masa, para esto se uso el archivo PDBlib, primero se definió la masa de los diferentes elementos (véase anexo ~\ref{app:A}),y luego se usaron las clases bases ya definidas en PDBlib para hacer los respectivos cálculos de centros de masa(véase anexo ~\ref{app:B}).\\
+ ~\ref{app:B}).\\

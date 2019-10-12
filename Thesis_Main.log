@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.10)  7 OCT 2019 20:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.10)  11 OCT 2019 16:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2641,15 +2641,19 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 54.
  [27]
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
 <./Figures/dep.png, id=800, 642.4pt x 481.8pt>
 File: ./Figures/dep.png Graphic file (type png)
 <use ./Figures/dep.png>
-Package pdftex.def Info: ./Figures/dep.png  used on input line 79.
+Package pdftex.def Info: ./Figures/dep.png  used on input line 80.
 (pdftex.def)             Requested size: 206.28249pt x 154.70847pt.
 <./Figures/dep1.png, id=801, 642.4pt x 481.8pt>
 File: ./Figures/dep1.png Graphic file (type png)
 <use ./Figures/dep1.png>
-Package pdftex.def Info: ./Figures/dep1.png  used on input line 85.
+Package pdftex.def Info: ./Figures/dep1.png  used on input line 86.
 (pdftex.def)             Requested size: 206.28249pt x 154.70847pt.
 Package epstopdf Info: Source file: <./Figures/e-100ev.eps>
 (epstopdf)                    date: 2019-10-06 11:24:07
@@ -2658,7 +2662,7 @@ Package epstopdf Info: Source file: <./Figures/e-100ev.eps>
 (epstopdf)                    date: 2019-10-06 14:38:17
 (epstopdf)                    size: 11062 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/e-100ev-eps-converted-to.pdf ./Figures/e-100ev.eps>
-(epstopdf)             \includegraphics on input line 100.
+(epstopdf)             \includegraphics on input line 101.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2666,7 +2670,7 @@ pdfTeX warning: pdflatex (file ./Figures/e-100ev-eps-converted-to.pdf): PDF incl
 <./Figures/e-100ev-eps-converted-to.pdf, id=802, 569.12625pt x 543.02875pt>
 File: ./Figures/e-100ev-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/e-100ev-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/e-100ev-eps-converted-to.pdf  used on input line 100.
+Package pdftex.def Info: ./Figures/e-100ev-eps-converted-to.pdf  used on input line 101.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/e-200ev.eps>
 (epstopdf)                    date: 2019-10-06 11:25:49
@@ -2675,7 +2679,7 @@ Package epstopdf Info: Source file: <./Figures/e-200ev.eps>
 (epstopdf)                    date: 2019-10-06 14:38:18
 (epstopdf)                    size: 11950 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/e-200ev-eps-converted-to.pdf ./Figures/e-200ev.eps>
-(epstopdf)             \includegraphics on input line 106.
+(epstopdf)             \includegraphics on input line 107.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2683,7 +2687,7 @@ pdfTeX warning: pdflatex (file ./Figures/e-200ev-eps-converted-to.pdf): PDF incl
 <./Figures/e-200ev-eps-converted-to.pdf, id=803, 569.12625pt x 543.02875pt>
 File: ./Figures/e-200ev-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/e-200ev-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/e-200ev-eps-converted-to.pdf  used on input line 106.
+Package pdftex.def Info: ./Figures/e-200ev-eps-converted-to.pdf  used on input line 107.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/e-400ev.eps>
 (epstopdf)                    date: 2019-10-06 11:30:31
@@ -2692,7 +2696,7 @@ Package epstopdf Info: Source file: <./Figures/e-400ev.eps>
 (epstopdf)                    date: 2019-10-06 14:39:16
 (epstopdf)                    size: 12954 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/e-400ev-eps-converted-to.pdf ./Figures/e-400ev.eps>
-(epstopdf)             \includegraphics on input line 112.
+(epstopdf)             \includegraphics on input line 113.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2700,7 +2704,7 @@ pdfTeX warning: pdflatex (file ./Figures/e-400ev-eps-converted-to.pdf): PDF incl
 <./Figures/e-400ev-eps-converted-to.pdf, id=804, 569.12625pt x 543.02875pt>
 File: ./Figures/e-400ev-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/e-400ev-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/e-400ev-eps-converted-to.pdf  used on input line 112.
+Package pdftex.def Info: ./Figures/e-400ev-eps-converted-to.pdf  used on input line 113.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/e-600.eps>
 (epstopdf)                    date: 2019-10-06 11:45:52
@@ -2709,7 +2713,7 @@ Package epstopdf Info: Source file: <./Figures/e-600.eps>
 (epstopdf)                    date: 2019-10-06 14:38:58
 (epstopdf)                    size: 13546 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/e-600-eps-converted-to.pdf ./Figures/e-600.eps>
-(epstopdf)             \includegraphics on input line 118.
+(epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2717,7 +2721,7 @@ pdfTeX warning: pdflatex (file ./Figures/e-600-eps-converted-to.pdf): PDF inclus
 <./Figures/e-600-eps-converted-to.pdf, id=805, 569.12625pt x 543.02875pt>
 File: ./Figures/e-600-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/e-600-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/e-600-eps-converted-to.pdf  used on input line 118.
+Package pdftex.def Info: ./Figures/e-600-eps-converted-to.pdf  used on input line 119.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/e-800ev.eps>
 (epstopdf)                    date: 2019-10-06 11:47:41
@@ -2726,7 +2730,7 @@ Package epstopdf Info: Source file: <./Figures/e-800ev.eps>
 (epstopdf)                    date: 2019-10-06 14:59:42
 (epstopdf)                    size: 13913 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/e-800ev-eps-converted-to.pdf ./Figures/e-800ev.eps>
-(epstopdf)             \includegraphics on input line 124.
+(epstopdf)             \includegraphics on input line 125.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2734,7 +2738,7 @@ pdfTeX warning: pdflatex (file ./Figures/e-800ev-eps-converted-to.pdf): PDF incl
 <./Figures/e-800ev-eps-converted-to.pdf, id=806, 569.12625pt x 543.02875pt>
 File: ./Figures/e-800ev-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/e-800ev-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/e-800ev-eps-converted-to.pdf  used on input line 124.
+Package pdftex.def Info: ./Figures/e-800ev-eps-converted-to.pdf  used on input line 125.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/e1kev.eps>
 (epstopdf)                    date: 2019-10-06 11:50:49
@@ -2743,7 +2747,7 @@ Package epstopdf Info: Source file: <./Figures/e1kev.eps>
 (epstopdf)                    date: 2019-10-06 14:59:43
 (epstopdf)                    size: 13681 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/e1kev-eps-converted-to.pdf ./Figures/e1kev.eps>
-(epstopdf)             \includegraphics on input line 130.
+(epstopdf)             \includegraphics on input line 131.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2751,7 +2755,7 @@ pdfTeX warning: pdflatex (file ./Figures/e1kev-eps-converted-to.pdf): PDF inclus
 <./Figures/e1kev-eps-converted-to.pdf, id=807, 569.12625pt x 543.02875pt>
 File: ./Figures/e1kev-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/e1kev-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/e1kev-eps-converted-to.pdf  used on input line 130.
+Package pdftex.def Info: ./Figures/e1kev-eps-converted-to.pdf  used on input line 131.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/e20kev.eps>
 (epstopdf)                    date: 2019-10-06 11:55:03
@@ -2760,7 +2764,7 @@ Package epstopdf Info: Source file: <./Figures/e20kev.eps>
 (epstopdf)                    date: 2019-10-06 14:59:44
 (epstopdf)                    size: 12015 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/e20kev-eps-converted-to.pdf ./Figures/e20kev.eps>
-(epstopdf)             \includegraphics on input line 136.
+(epstopdf)             \includegraphics on input line 137.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2768,7 +2772,7 @@ pdfTeX warning: pdflatex (file ./Figures/e20kev-eps-converted-to.pdf): PDF inclu
 <./Figures/e20kev-eps-converted-to.pdf, id=808, 569.12625pt x 543.02875pt>
 File: ./Figures/e20kev-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/e20kev-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/e20kev-eps-converted-to.pdf  used on input line 136.
+Package pdftex.def Info: ./Figures/e20kev-eps-converted-to.pdf  used on input line 137.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/e40kev.eps>
 (epstopdf)                    date: 2019-10-06 11:56:14
@@ -2777,7 +2781,7 @@ Package epstopdf Info: Source file: <./Figures/e40kev.eps>
 (epstopdf)                    date: 2019-10-06 14:59:45
 (epstopdf)                    size: 11146 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/e40kev-eps-converted-to.pdf ./Figures/e40kev.eps>
-(epstopdf)             \includegraphics on input line 142.
+(epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2785,10 +2789,10 @@ pdfTeX warning: pdflatex (file ./Figures/e40kev-eps-converted-to.pdf): PDF inclu
 <./Figures/e40kev-eps-converted-to.pdf, id=809, 569.12625pt x 543.02875pt>
 File: ./Figures/e40kev-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/e40kev-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/e40kev-eps-converted-to.pdf  used on input line 142.
+Package pdftex.def Info: ./Figures/e40kev-eps-converted-to.pdf  used on input line 143.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 
-LaTeX Warning: Float too large for page by 17.20445pt on input line 148.
+LaTeX Warning: Float too large for page by 17.20445pt on input line 149.
 
 Package epstopdf Info: Source file: <./Figures/proton200eV.eps>
 (epstopdf)                    date: 2019-10-06 12:14:47
@@ -2797,7 +2801,7 @@ Package epstopdf Info: Source file: <./Figures/proton200eV.eps>
 (epstopdf)                    date: 2019-10-06 15:07:29
 (epstopdf)                    size: 11077 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/proton200eV-eps-converted-to.pdf ./Figures/proton200eV.eps>
-(epstopdf)             \includegraphics on input line 154.
+(epstopdf)             \includegraphics on input line 155.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2805,7 +2809,7 @@ pdfTeX warning: pdflatex (file ./Figures/proton200eV-eps-converted-to.pdf): PDF 
 <./Figures/proton200eV-eps-converted-to.pdf, id=810, 569.12625pt x 543.02875pt>
 File: ./Figures/proton200eV-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/proton200eV-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/proton200eV-eps-converted-to.pdf  used on input line 154.
+Package pdftex.def Info: ./Figures/proton200eV-eps-converted-to.pdf  used on input line 155.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/proton400eV.eps>
 (epstopdf)                    date: 2019-10-06 12:17:01
@@ -2814,7 +2818,7 @@ Package epstopdf Info: Source file: <./Figures/proton400eV.eps>
 (epstopdf)                    date: 2019-10-06 15:07:31
 (epstopdf)                    size: 12227 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/proton400eV-eps-converted-to.pdf ./Figures/proton400eV.eps>
-(epstopdf)             \includegraphics on input line 160.
+(epstopdf)             \includegraphics on input line 161.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2822,7 +2826,7 @@ pdfTeX warning: pdflatex (file ./Figures/proton400eV-eps-converted-to.pdf): PDF 
 <./Figures/proton400eV-eps-converted-to.pdf, id=811, 569.12625pt x 543.02875pt>
 File: ./Figures/proton400eV-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/proton400eV-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/proton400eV-eps-converted-to.pdf  used on input line 160.
+Package pdftex.def Info: ./Figures/proton400eV-eps-converted-to.pdf  used on input line 161.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/proton600eV.eps>
 (epstopdf)                    date: 2019-10-06 12:19:22
@@ -2831,7 +2835,7 @@ Package epstopdf Info: Source file: <./Figures/proton600eV.eps>
 (epstopdf)                    date: 2019-10-06 15:07:32
 (epstopdf)                    size: 12820 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/proton600eV-eps-converted-to.pdf ./Figures/proton600eV.eps>
-(epstopdf)             \includegraphics on input line 166.
+(epstopdf)             \includegraphics on input line 167.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2839,7 +2843,7 @@ pdfTeX warning: pdflatex (file ./Figures/proton600eV-eps-converted-to.pdf): PDF 
 <./Figures/proton600eV-eps-converted-to.pdf, id=812, 569.12625pt x 543.02875pt>
 File: ./Figures/proton600eV-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/proton600eV-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/proton600eV-eps-converted-to.pdf  used on input line 166.
+Package pdftex.def Info: ./Figures/proton600eV-eps-converted-to.pdf  used on input line 167.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/proton800eV.eps>
 (epstopdf)                    date: 2019-10-06 12:22:02
@@ -2848,7 +2852,7 @@ Package epstopdf Info: Source file: <./Figures/proton800eV.eps>
 (epstopdf)                    date: 2019-10-06 15:07:33
 (epstopdf)                    size: 12938 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/proton800eV-eps-converted-to.pdf ./Figures/proton800eV.eps>
-(epstopdf)             \includegraphics on input line 172.
+(epstopdf)             \includegraphics on input line 173.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2856,7 +2860,7 @@ pdfTeX warning: pdflatex (file ./Figures/proton800eV-eps-converted-to.pdf): PDF 
 <./Figures/proton800eV-eps-converted-to.pdf, id=813, 569.12625pt x 543.02875pt>
 File: ./Figures/proton800eV-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/proton800eV-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/proton800eV-eps-converted-to.pdf  used on input line 172.
+Package pdftex.def Info: ./Figures/proton800eV-eps-converted-to.pdf  used on input line 173.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/proton1kev.eps>
 (epstopdf)                    date: 2019-10-06 12:25:03
@@ -2865,7 +2869,7 @@ Package epstopdf Info: Source file: <./Figures/proton1kev.eps>
 (epstopdf)                    date: 2019-10-06 15:07:34
 (epstopdf)                    size: 13234 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/proton1kev-eps-converted-to.pdf ./Figures/proton1kev.eps>
-(epstopdf)             \includegraphics on input line 178.
+(epstopdf)             \includegraphics on input line 179.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2873,7 +2877,7 @@ pdfTeX warning: pdflatex (file ./Figures/proton1kev-eps-converted-to.pdf): PDF i
 <./Figures/proton1kev-eps-converted-to.pdf, id=814, 569.12625pt x 543.02875pt>
 File: ./Figures/proton1kev-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/proton1kev-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/proton1kev-eps-converted-to.pdf  used on input line 178.
+Package pdftex.def Info: ./Figures/proton1kev-eps-converted-to.pdf  used on input line 179.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/proton200kev.eps>
 (epstopdf)                    date: 2019-10-06 12:32:25
@@ -2882,7 +2886,7 @@ Package epstopdf Info: Source file: <./Figures/proton200kev.eps>
 (epstopdf)                    date: 2019-10-06 15:08:31
 (epstopdf)                    size: 15823 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/proton200kev-eps-converted-to.pdf ./Figures/proton200kev.eps>
-(epstopdf)             \includegraphics on input line 184.
+(epstopdf)             \includegraphics on input line 185.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2890,7 +2894,7 @@ pdfTeX warning: pdflatex (file ./Figures/proton200kev-eps-converted-to.pdf): PDF
 <./Figures/proton200kev-eps-converted-to.pdf, id=815, 569.12625pt x 543.02875pt>
 File: ./Figures/proton200kev-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/proton200kev-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/proton200kev-eps-converted-to.pdf  used on input line 184.
+Package pdftex.def Info: ./Figures/proton200kev-eps-converted-to.pdf  used on input line 185.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/proton400kev.eps>
 (epstopdf)                    date: 2019-10-06 12:38:43
@@ -2899,7 +2903,7 @@ Package epstopdf Info: Source file: <./Figures/proton400kev.eps>
 (epstopdf)                    date: 2019-10-06 15:08:32
 (epstopdf)                    size: 15885 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/proton400kev-eps-converted-to.pdf ./Figures/proton400kev.eps>
-(epstopdf)             \includegraphics on input line 190.
+(epstopdf)             \includegraphics on input line 191.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2907,7 +2911,7 @@ pdfTeX warning: pdflatex (file ./Figures/proton400kev-eps-converted-to.pdf): PDF
 <./Figures/proton400kev-eps-converted-to.pdf, id=816, 569.12625pt x 543.02875pt>
 File: ./Figures/proton400kev-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/proton400kev-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/proton400kev-eps-converted-to.pdf  used on input line 190.
+Package pdftex.def Info: ./Figures/proton400kev-eps-converted-to.pdf  used on input line 191.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/proton600kev.eps>
 (epstopdf)                    date: 2019-10-06 12:43:34
@@ -2916,7 +2920,7 @@ Package epstopdf Info: Source file: <./Figures/proton600kev.eps>
 (epstopdf)                    date: 2019-10-06 15:09:38
 (epstopdf)                    size: 15678 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/proton600kev-eps-converted-to.pdf ./Figures/proton600kev.eps>
-(epstopdf)             \includegraphics on input line 196.
+(epstopdf)             \includegraphics on input line 197.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2924,10 +2928,10 @@ pdfTeX warning: pdflatex (file ./Figures/proton600kev-eps-converted-to.pdf): PDF
 <./Figures/proton600kev-eps-converted-to.pdf, id=817, 569.12625pt x 543.02875pt>
 File: ./Figures/proton600kev-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/proton600kev-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/proton600kev-eps-converted-to.pdf  used on input line 196.
+Package pdftex.def Info: ./Figures/proton600kev-eps-converted-to.pdf  used on input line 197.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 
-LaTeX Warning: Float too large for page by 17.20445pt on input line 202.
+LaTeX Warning: Float too large for page by 17.20445pt on input line 203.
 
 Package epstopdf Info: Source file: <./Figures/040.eps>
 (epstopdf)                    date: 2019-10-06 20:47:59
@@ -2936,7 +2940,7 @@ Package epstopdf Info: Source file: <./Figures/040.eps>
 (epstopdf)                    date: 2019-10-07 11:33:38
 (epstopdf)                    size: 10788 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/040-eps-converted-to.pdf ./Figures/040.eps>
-(epstopdf)             \includegraphics on input line 210.
+(epstopdf)             \includegraphics on input line 211.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2944,7 +2948,7 @@ pdfTeX warning: pdflatex (file ./Figures/040-eps-converted-to.pdf): PDF inclusio
 <./Figures/040-eps-converted-to.pdf, id=818, 569.12625pt x 543.02875pt>
 File: ./Figures/040-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/040-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/040-eps-converted-to.pdf  used on input line 210.
+Package pdftex.def Info: ./Figures/040-eps-converted-to.pdf  used on input line 211.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/1.eps>
 (epstopdf)                    date: 2019-10-06 20:30:30
@@ -2953,7 +2957,7 @@ Package epstopdf Info: Source file: <./Figures/1.eps>
 (epstopdf)                    date: 2019-10-07 11:33:40
 (epstopdf)                    size: 11218 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/1-eps-converted-to.pdf ./Figures/1.eps>
-(epstopdf)             \includegraphics on input line 216.
+(epstopdf)             \includegraphics on input line 217.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2961,7 +2965,7 @@ pdfTeX warning: pdflatex (file ./Figures/1-eps-converted-to.pdf): PDF inclusion:
 <./Figures/1-eps-converted-to.pdf, id=819, 569.12625pt x 543.02875pt>
 File: ./Figures/1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/1-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/1-eps-converted-to.pdf  used on input line 216.
+Package pdftex.def Info: ./Figures/1-eps-converted-to.pdf  used on input line 217.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/2.eps>
 (epstopdf)                    date: 2019-10-06 20:33:37
@@ -2970,7 +2974,7 @@ Package epstopdf Info: Source file: <./Figures/2.eps>
 (epstopdf)                    date: 2019-10-07 11:33:41
 (epstopdf)                    size: 11399 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/2-eps-converted-to.pdf ./Figures/2.eps>
-(epstopdf)             \includegraphics on input line 222.
+(epstopdf)             \includegraphics on input line 223.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2978,7 +2982,7 @@ pdfTeX warning: pdflatex (file ./Figures/2-eps-converted-to.pdf): PDF inclusion:
 <./Figures/2-eps-converted-to.pdf, id=820, 569.12625pt x 543.02875pt>
 File: ./Figures/2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/2-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/2-eps-converted-to.pdf  used on input line 222.
+Package pdftex.def Info: ./Figures/2-eps-converted-to.pdf  used on input line 223.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/3.eps>
 (epstopdf)                    date: 2019-10-06 20:35:53
@@ -2987,7 +2991,7 @@ Package epstopdf Info: Source file: <./Figures/3.eps>
 (epstopdf)                    date: 2019-10-07 11:33:43
 (epstopdf)                    size: 11498 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/3-eps-converted-to.pdf ./Figures/3.eps>
-(epstopdf)             \includegraphics on input line 228.
+(epstopdf)             \includegraphics on input line 229.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2995,7 +2999,7 @@ pdfTeX warning: pdflatex (file ./Figures/3-eps-converted-to.pdf): PDF inclusion:
 <./Figures/3-eps-converted-to.pdf, id=821, 569.12625pt x 543.02875pt>
 File: ./Figures/3-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/3-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/3-eps-converted-to.pdf  used on input line 228.
+Package pdftex.def Info: ./Figures/3-eps-converted-to.pdf  used on input line 229.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/4.eps>
 (epstopdf)                    date: 2019-10-06 20:38:34
@@ -3004,7 +3008,7 @@ Package epstopdf Info: Source file: <./Figures/4.eps>
 (epstopdf)                    date: 2019-10-07 11:33:44
 (epstopdf)                    size: 11453 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/4-eps-converted-to.pdf ./Figures/4.eps>
-(epstopdf)             \includegraphics on input line 234.
+(epstopdf)             \includegraphics on input line 235.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -3012,7 +3016,7 @@ pdfTeX warning: pdflatex (file ./Figures/4-eps-converted-to.pdf): PDF inclusion:
 <./Figures/4-eps-converted-to.pdf, id=822, 569.12625pt x 543.02875pt>
 File: ./Figures/4-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/4-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/4-eps-converted-to.pdf  used on input line 234.
+Package pdftex.def Info: ./Figures/4-eps-converted-to.pdf  used on input line 235.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/5.eps>
 (epstopdf)                    date: 2019-10-06 20:39:57
@@ -3021,7 +3025,7 @@ Package epstopdf Info: Source file: <./Figures/5.eps>
 (epstopdf)                    date: 2019-10-07 11:33:45
 (epstopdf)                    size: 11416 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/5-eps-converted-to.pdf ./Figures/5.eps>
-(epstopdf)             \includegraphics on input line 240.
+(epstopdf)             \includegraphics on input line 241.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -3029,7 +3033,7 @@ pdfTeX warning: pdflatex (file ./Figures/5-eps-converted-to.pdf): PDF inclusion:
 <./Figures/5-eps-converted-to.pdf, id=823, 569.12625pt x 543.02875pt>
 File: ./Figures/5-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/5-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/5-eps-converted-to.pdf  used on input line 240.
+Package pdftex.def Info: ./Figures/5-eps-converted-to.pdf  used on input line 241.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/6.eps>
 (epstopdf)                    date: 2019-10-06 20:42:23
@@ -3038,7 +3042,7 @@ Package epstopdf Info: Source file: <./Figures/6.eps>
 (epstopdf)                    date: 2019-10-07 11:33:47
 (epstopdf)                    size: 11234 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/6-eps-converted-to.pdf ./Figures/6.eps>
-(epstopdf)             \includegraphics on input line 246.
+(epstopdf)             \includegraphics on input line 247.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -3046,7 +3050,7 @@ pdfTeX warning: pdflatex (file ./Figures/6-eps-converted-to.pdf): PDF inclusion:
 <./Figures/6-eps-converted-to.pdf, id=824, 569.12625pt x 543.02875pt>
 File: ./Figures/6-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/6-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/6-eps-converted-to.pdf  used on input line 246.
+Package pdftex.def Info: ./Figures/6-eps-converted-to.pdf  used on input line 247.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/7.eps>
 (epstopdf)                    date: 2019-10-06 20:45:35
@@ -3055,7 +3059,7 @@ Package epstopdf Info: Source file: <./Figures/7.eps>
 (epstopdf)                    date: 2019-10-07 11:33:48
 (epstopdf)                    size: 10558 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/7-eps-converted-to.pdf ./Figures/7.eps>
-(epstopdf)             \includegraphics on input line 252.
+(epstopdf)             \includegraphics on input line 253.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -3063,10 +3067,10 @@ pdfTeX warning: pdflatex (file ./Figures/7-eps-converted-to.pdf): PDF inclusion:
 <./Figures/7-eps-converted-to.pdf, id=825, 569.12625pt x 543.02875pt>
 File: ./Figures/7-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/7-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/7-eps-converted-to.pdf  used on input line 252.
+Package pdftex.def Info: ./Figures/7-eps-converted-to.pdf  used on input line 253.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 
-LaTeX Warning: Float too large for page by 17.20445pt on input line 258.
+LaTeX Warning: Float too large for page by 17.20445pt on input line 259.
 
 Package epstopdf Info: Source file: <./Figures/11.eps>
 (epstopdf)                    date: 2019-10-06 20:50:00
@@ -3075,7 +3079,7 @@ Package epstopdf Info: Source file: <./Figures/11.eps>
 (epstopdf)                    date: 2019-10-07 11:35:42
 (epstopdf)                    size: 11244 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/11-eps-converted-to.pdf ./Figures/11.eps>
-(epstopdf)             \includegraphics on input line 267.
+(epstopdf)             \includegraphics on input line 268.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -3083,7 +3087,7 @@ pdfTeX warning: pdflatex (file ./Figures/11-eps-converted-to.pdf): PDF inclusion
 <./Figures/11-eps-converted-to.pdf, id=826, 569.12625pt x 543.02875pt>
 File: ./Figures/11-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/11-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/11-eps-converted-to.pdf  used on input line 267.
+Package pdftex.def Info: ./Figures/11-eps-converted-to.pdf  used on input line 268.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/22.eps>
 (epstopdf)                    date: 2019-10-06 20:52:51
@@ -3092,7 +3096,7 @@ Package epstopdf Info: Source file: <./Figures/22.eps>
 (epstopdf)                    date: 2019-10-07 11:35:43
 (epstopdf)                    size: 11504 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/22-eps-converted-to.pdf ./Figures/22.eps>
-(epstopdf)             \includegraphics on input line 273.
+(epstopdf)             \includegraphics on input line 274.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -3100,7 +3104,7 @@ pdfTeX warning: pdflatex (file ./Figures/22-eps-converted-to.pdf): PDF inclusion
 <./Figures/22-eps-converted-to.pdf, id=827, 569.12625pt x 543.02875pt>
 File: ./Figures/22-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/22-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/22-eps-converted-to.pdf  used on input line 273.
+Package pdftex.def Info: ./Figures/22-eps-converted-to.pdf  used on input line 274.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/33.eps>
 (epstopdf)                    date: 2019-10-06 20:54:21
@@ -3109,7 +3113,7 @@ Package epstopdf Info: Source file: <./Figures/33.eps>
 (epstopdf)                    date: 2019-10-07 11:35:44
 (epstopdf)                    size: 11732 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/33-eps-converted-to.pdf ./Figures/33.eps>
-(epstopdf)             \includegraphics on input line 279.
+(epstopdf)             \includegraphics on input line 280.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -3117,7 +3121,7 @@ pdfTeX warning: pdflatex (file ./Figures/33-eps-converted-to.pdf): PDF inclusion
 <./Figures/33-eps-converted-to.pdf, id=828, 569.12625pt x 543.02875pt>
 File: ./Figures/33-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/33-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/33-eps-converted-to.pdf  used on input line 279.
+Package pdftex.def Info: ./Figures/33-eps-converted-to.pdf  used on input line 280.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/44.eps>
 (epstopdf)                    date: 2019-10-06 20:55:53
@@ -3126,7 +3130,7 @@ Package epstopdf Info: Source file: <./Figures/44.eps>
 (epstopdf)                    date: 2019-10-07 11:35:45
 (epstopdf)                    size: 11716 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/44-eps-converted-to.pdf ./Figures/44.eps>
-(epstopdf)             \includegraphics on input line 285.
+(epstopdf)             \includegraphics on input line 286.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -3134,7 +3138,7 @@ pdfTeX warning: pdflatex (file ./Figures/44-eps-converted-to.pdf): PDF inclusion
 <./Figures/44-eps-converted-to.pdf, id=829, 569.12625pt x 543.02875pt>
 File: ./Figures/44-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/44-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/44-eps-converted-to.pdf  used on input line 285.
+Package pdftex.def Info: ./Figures/44-eps-converted-to.pdf  used on input line 286.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/55.eps>
 (epstopdf)                    date: 2019-10-06 20:58:15
@@ -3143,7 +3147,7 @@ Package epstopdf Info: Source file: <./Figures/55.eps>
 (epstopdf)                    date: 2019-10-07 11:35:47
 (epstopdf)                    size: 11776 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/55-eps-converted-to.pdf ./Figures/55.eps>
-(epstopdf)             \includegraphics on input line 291.
+(epstopdf)             \includegraphics on input line 292.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -3151,7 +3155,7 @@ pdfTeX warning: pdflatex (file ./Figures/55-eps-converted-to.pdf): PDF inclusion
 <./Figures/55-eps-converted-to.pdf, id=830, 569.12625pt x 543.02875pt>
 File: ./Figures/55-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/55-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/55-eps-converted-to.pdf  used on input line 291.
+Package pdftex.def Info: ./Figures/55-eps-converted-to.pdf  used on input line 292.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/66.eps>
 (epstopdf)                    date: 2019-10-06 20:59:28
@@ -3160,7 +3164,7 @@ Package epstopdf Info: Source file: <./Figures/66.eps>
 (epstopdf)                    date: 2019-10-07 11:35:48
 (epstopdf)                    size: 12582 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/66-eps-converted-to.pdf ./Figures/66.eps>
-(epstopdf)             \includegraphics on input line 297.
+(epstopdf)             \includegraphics on input line 298.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -3168,7 +3172,7 @@ pdfTeX warning: pdflatex (file ./Figures/66-eps-converted-to.pdf): PDF inclusion
 <./Figures/66-eps-converted-to.pdf, id=831, 569.12625pt x 543.02875pt>
 File: ./Figures/66-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/66-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/66-eps-converted-to.pdf  used on input line 297.
+Package pdftex.def Info: ./Figures/66-eps-converted-to.pdf  used on input line 298.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/77.eps>
 (epstopdf)                    date: 2019-10-06 21:01:12
@@ -3177,7 +3181,7 @@ Package epstopdf Info: Source file: <./Figures/77.eps>
 (epstopdf)                    date: 2019-10-07 11:35:50
 (epstopdf)                    size: 12179 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/77-eps-converted-to.pdf ./Figures/77.eps>
-(epstopdf)             \includegraphics on input line 303.
+(epstopdf)             \includegraphics on input line 304.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -3185,7 +3189,7 @@ pdfTeX warning: pdflatex (file ./Figures/77-eps-converted-to.pdf): PDF inclusion
 <./Figures/77-eps-converted-to.pdf, id=832, 569.12625pt x 543.02875pt>
 File: ./Figures/77-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/77-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/77-eps-converted-to.pdf  used on input line 303.
+Package pdftex.def Info: ./Figures/77-eps-converted-to.pdf  used on input line 304.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 Package epstopdf Info: Source file: <./Figures/88.eps>
 (epstopdf)                    date: 2019-10-06 21:02:53
@@ -3194,7 +3198,7 @@ Package epstopdf Info: Source file: <./Figures/88.eps>
 (epstopdf)                    date: 2019-10-07 11:35:52
 (epstopdf)                    size: 11657 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/88-eps-converted-to.pdf ./Figures/88.eps>
-(epstopdf)             \includegraphics on input line 309.
+(epstopdf)             \includegraphics on input line 310.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -3202,64 +3206,96 @@ pdfTeX warning: pdflatex (file ./Figures/88-eps-converted-to.pdf): PDF inclusion
 <./Figures/88-eps-converted-to.pdf, id=833, 569.12625pt x 543.02875pt>
 File: ./Figures/88-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/88-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/88-eps-converted-to.pdf  used on input line 309.
+Package pdftex.def Info: ./Figures/88-eps-converted-to.pdf  used on input line 310.
 (pdftex.def)             Requested size: 160.90009pt x 153.5219pt.
 
-LaTeX Warning: Float too large for page by 17.20445pt on input line 315.
+LaTeX Warning: Float too large for page by 17.20445pt on input line 316.
 
-<./Figures/baresi.png, id=834, 811.53188pt x 454.69875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
+
+ []
+
+LaTeX Info: Redefining \. on input line 319.
+LaTeX Info: Redefining \% on input line 319.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 319.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 319.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 319.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 319.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 319.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 319.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 319.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 319.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 319.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 319.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 319.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 319.
+[28]
+<./Figures/baresi.png, id=862, 811.53188pt x 454.69875pt>
 File: ./Figures/baresi.png Graphic file (type png)
 <use ./Figures/baresi.png>
-Package pdftex.def Info: ./Figures/baresi.png  used on input line 324.
+Package pdftex.def Info: ./Figures/baresi.png  used on input line 327.
 (pdftex.def)             Requested size: 160.90009pt x 90.14719pt.
 File: ./Figures/baresi.png Graphic file (type png)
 <use ./Figures/baresi.png>
-Package pdftex.def Info: ./Figures/baresi.png  used on input line 330.
+Package pdftex.def Info: ./Figures/baresi.png  used on input line 333.
 (pdftex.def)             Requested size: 160.90009pt x 90.14719pt.
-<./Figures/bavdw.png, id=835, 811.53188pt x 454.69875pt>
+<./Figures/bavdw.png, id=863, 811.53188pt x 454.69875pt>
 File: ./Figures/bavdw.png Graphic file (type png)
 <use ./Figures/bavdw.png>
-Package pdftex.def Info: ./Figures/bavdw.png  used on input line 336.
+Package pdftex.def Info: ./Figures/bavdw.png  used on input line 339.
 (pdftex.def)             Requested size: 160.90009pt x 90.14719pt.
 File: ./Figures/bavdw.png Graphic file (type png)
 <use ./Figures/bavdw.png>
-Package pdftex.def Info: ./Figures/bavdw.png  used on input line 342.
+Package pdftex.def Info: ./Figures/bavdw.png  used on input line 345.
 (pdftex.def)             Requested size: 160.90009pt x 90.14719pt.
-<./Figures/a.png, id=836, 811.53188pt x 454.69875pt>
+<./Figures/a.png, id=864, 811.53188pt x 454.69875pt>
 File: ./Figures/a.png Graphic file (type png)
 <use ./Figures/a.png>
-Package pdftex.def Info: ./Figures/a.png  used on input line 348.
+Package pdftex.def Info: ./Figures/a.png  used on input line 351.
 (pdftex.def)             Requested size: 160.90009pt x 90.14719pt.
 File: ./Figures/a.png Graphic file (type png)
 <use ./Figures/a.png>
-Package pdftex.def Info: ./Figures/a.png  used on input line 354.
+Package pdftex.def Info: ./Figures/a.png  used on input line 357.
 (pdftex.def)             Requested size: 160.90009pt x 90.14719pt.
-<./Figures/1fzxresid.png, id=837, 811.53188pt x 454.69875pt>
+<./Figures/1fzxresid.png, id=865, 811.53188pt x 454.69875pt>
 File: ./Figures/1fzxresid.png Graphic file (type png)
 <use ./Figures/1fzxresid.png>
-Package pdftex.def Info: ./Figures/1fzxresid.png  used on input line 369.
+Package pdftex.def Info: ./Figures/1fzxresid.png  used on input line 372.
 (pdftex.def)             Requested size: 160.90009pt x 90.14719pt.
 File: ./Figures/1fzxresid.png Graphic file (type png)
 <use ./Figures/1fzxresid.png>
-Package pdftex.def Info: ./Figures/1fzxresid.png  used on input line 375.
+Package pdftex.def Info: ./Figures/1fzxresid.png  used on input line 378.
 (pdftex.def)             Requested size: 160.90009pt x 90.14719pt.
-<./Figures/1fzxvdw.png, id=838, 811.53188pt x 454.69875pt>
+<./Figures/1fzxvdw.png, id=866, 811.53188pt x 454.69875pt>
 File: ./Figures/1fzxvdw.png Graphic file (type png)
 <use ./Figures/1fzxvdw.png>
-Package pdftex.def Info: ./Figures/1fzxvdw.png  used on input line 381.
+Package pdftex.def Info: ./Figures/1fzxvdw.png  used on input line 384.
 (pdftex.def)             Requested size: 160.90009pt x 90.14719pt.
 File: ./Figures/1fzxvdw.png Graphic file (type png)
 <use ./Figures/1fzxvdw.png>
-Package pdftex.def Info: ./Figures/1fzxvdw.png  used on input line 387.
+Package pdftex.def Info: ./Figures/1fzxvdw.png  used on input line 390.
 (pdftex.def)             Requested size: 160.90009pt x 90.14719pt.
-<./Figures/1fzxba.png, id=839, 811.53188pt x 454.69875pt>
+<./Figures/1fzxba.png, id=867, 811.53188pt x 454.69875pt>
 File: ./Figures/1fzxba.png Graphic file (type png)
 <use ./Figures/1fzxba.png>
-Package pdftex.def Info: ./Figures/1fzxba.png  used on input line 393.
+Package pdftex.def Info: ./Figures/1fzxba.png  used on input line 396.
 (pdftex.def)             Requested size: 160.90009pt x 90.14719pt.
 File: ./Figures/1fzxba.png Graphic file (type png)
 <use ./Figures/1fzxba.png>
-Package pdftex.def Info: ./Figures/1fzxba.png  used on input line 399.
+Package pdftex.def Info: ./Figures/1fzxba.png  used on input line 402.
 (pdftex.def)             Requested size: 160.90009pt x 90.14719pt.
 Package epstopdf Info: Source file: <./Figures/can1.eps>
 (epstopdf)                    date: 2019-10-03 13:08:59
@@ -3268,15 +3304,15 @@ Package epstopdf Info: Source file: <./Figures/can1.eps>
 (epstopdf)                    date: 2019-10-03 14:27:10
 (epstopdf)                    size: 11725 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/can1-eps-converted-to.pdf ./Figures/can1.eps>
-(epstopdf)             \includegraphics on input line 412.
+(epstopdf)             \includegraphics on input line 415.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figures/can1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Figures/can1-eps-converted-to.pdf, id=840, 569.12625pt x 278.03876pt>
+<./Figures/can1-eps-converted-to.pdf, id=868, 569.12625pt x 278.03876pt>
 File: ./Figures/can1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/can1-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/can1-eps-converted-to.pdf  used on input line 412.
+Package pdftex.def Info: ./Figures/can1-eps-converted-to.pdf  used on input line 415.
 (pdftex.def)             Requested size: 412.56499pt x 201.56232pt.
 Package epstopdf Info: Source file: <./Figures/can2.eps>
 (epstopdf)                    date: 2019-10-03 13:09:07
@@ -3285,15 +3321,15 @@ Package epstopdf Info: Source file: <./Figures/can2.eps>
 (epstopdf)                    date: 2019-10-03 14:27:11
 (epstopdf)                    size: 13004 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/can2-eps-converted-to.pdf ./Figures/can2.eps>
-(epstopdf)             \includegraphics on input line 419.
+(epstopdf)             \includegraphics on input line 422.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figures/can2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Figures/can2-eps-converted-to.pdf, id=841, 569.12625pt x 421.575pt>
+<./Figures/can2-eps-converted-to.pdf, id=869, 569.12625pt x 421.575pt>
 File: ./Figures/can2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/can2-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/can2-eps-converted-to.pdf  used on input line 419.
+Package pdftex.def Info: ./Figures/can2-eps-converted-to.pdf  used on input line 422.
 (pdftex.def)             Requested size: 412.56499pt x 305.61795pt.
 Package epstopdf Info: Source file: <./Figures/can3.eps>
 (epstopdf)                    date: 2019-10-03 13:09:13
@@ -3302,15 +3338,15 @@ Package epstopdf Info: Source file: <./Figures/can3.eps>
 (epstopdf)                    date: 2019-10-03 14:27:12
 (epstopdf)                    size: 11882 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/can3-eps-converted-to.pdf ./Figures/can3.eps>
-(epstopdf)             \includegraphics on input line 426.
+(epstopdf)             \includegraphics on input line 429.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figures/can3-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Figures/can3-eps-converted-to.pdf, id=842, 569.12625pt x 421.575pt>
+<./Figures/can3-eps-converted-to.pdf, id=870, 569.12625pt x 421.575pt>
 File: ./Figures/can3-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/can3-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/can3-eps-converted-to.pdf  used on input line 426.
+Package pdftex.def Info: ./Figures/can3-eps-converted-to.pdf  used on input line 429.
 (pdftex.def)             Requested size: 412.56499pt x 305.61795pt.
 Package epstopdf Info: Source file: <./Figures/1fzx.eps>
 (epstopdf)                    date: 2019-10-06 20:21:33
@@ -3319,15 +3355,15 @@ Package epstopdf Info: Source file: <./Figures/1fzx.eps>
 (epstopdf)                    date: 2019-10-06 20:26:24
 (epstopdf)                    size: 11005 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/1fzx-eps-converted-to.pdf ./Figures/1fzx.eps>
-(epstopdf)             \includegraphics on input line 436.
+(epstopdf)             \includegraphics on input line 439.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figures/1fzx-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Figures/1fzx-eps-converted-to.pdf, id=843, 569.12625pt x 421.575pt>
+<./Figures/1fzx-eps-converted-to.pdf, id=871, 569.12625pt x 421.575pt>
 File: ./Figures/1fzx-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/1fzx-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/1fzx-eps-converted-to.pdf  used on input line 436.
+Package pdftex.def Info: ./Figures/1fzx-eps-converted-to.pdf  used on input line 439.
 (pdftex.def)             Requested size: 412.56499pt x 305.61795pt.
 Package epstopdf Info: Source file: <./Figures/1fzy.eps>
 (epstopdf)                    date: 2019-10-06 20:21:49
@@ -3336,15 +3372,15 @@ Package epstopdf Info: Source file: <./Figures/1fzy.eps>
 (epstopdf)                    date: 2019-10-06 20:26:25
 (epstopdf)                    size: 10952 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/1fzy-eps-converted-to.pdf ./Figures/1fzy.eps>
-(epstopdf)             \includegraphics on input line 443.
+(epstopdf)             \includegraphics on input line 446.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figures/1fzy-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Figures/1fzy-eps-converted-to.pdf, id=844, 569.12625pt x 421.575pt>
+<./Figures/1fzy-eps-converted-to.pdf, id=872, 569.12625pt x 421.575pt>
 File: ./Figures/1fzy-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/1fzy-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/1fzy-eps-converted-to.pdf  used on input line 443.
+Package pdftex.def Info: ./Figures/1fzy-eps-converted-to.pdf  used on input line 446.
 (pdftex.def)             Requested size: 412.56499pt x 305.61795pt.
 Package epstopdf Info: Source file: <./Figures/1fzz.eps>
 (epstopdf)                    date: 2019-10-06 20:22:08
@@ -3353,264 +3389,22 @@ Package epstopdf Info: Source file: <./Figures/1fzz.eps>
 (epstopdf)                    date: 2019-10-06 20:26:26
 (epstopdf)                    size: 10255 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/1fzz-eps-converted-to.pdf ./Figures/1fzz.eps>
-(epstopdf)             \includegraphics on input line 450.
+(epstopdf)             \includegraphics on input line 453.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figures/1fzz-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Figures/1fzz-eps-converted-to.pdf, id=845, 569.12625pt x 421.575pt>
+<./Figures/1fzz-eps-converted-to.pdf, id=873, 569.12625pt x 421.575pt>
 File: ./Figures/1fzz-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/1fzz-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/1fzz-eps-converted-to.pdf  used on input line 450.
+Package pdftex.def Info: ./Figures/1fzz-eps-converted-to.pdf  used on input line 453.
 (pdftex.def)             Requested size: 412.56499pt x 305.61795pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 457--175
+Underfull \hbox (badness 10000) in paragraph at lines 460--175
 
  []
 
-LaTeX Info: Redefining \. on input line 175.
-LaTeX Info: Redefining \% on input line 175.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 175.
-[28 <./Figures/dep.png> <./Figures/dep1.png>]
-LaTeX Info: Redefining \. on input line 175.
-LaTeX Info: Redefining \% on input line 175.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 175.
- [29 <./Figures/e-100ev-eps-converted-to.pdf> <./Figures/e-200ev-eps-converted-to.pdf> <./Figures/e-400ev-eps-converted-to.pdf> <./Figures/e-600-eps-converted-to.pdf> <./Figures/e-800ev-eps-converted-to.pdf> <./Figures/e1kev-eps-converted-to.pdf> <./Figures/e20kev-eps-converted-to.pdf> <./Figures/e40kev-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 175.
-LaTeX Info: Redefining \% on input line 175.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 175.
- [30 <./Figures/proton200eV-eps-converted-to.pdf> <./Figures/proton400eV-eps-converted-to.pdf> <./Figures/proton600eV-eps-converted-to.pdf> <./Figures/proton800eV-eps-converted-to.pdf> <./Figures/proton1kev-eps-converted-to.pdf> <./Figures/proton200kev-eps-converted-to.pdf> <./Figures/proton400kev-eps-converted-to.pdf> <./Figures/proton600kev-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 175.
-LaTeX Info: Redefining \% on input line 175.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 175.
- [31 <./Figures/040-eps-converted-to.pdf> <./Figures/1-eps-converted-to.pdf> <./Figures/2-eps-converted-to.pdf> <./Figures/3-eps-converted-to.pdf> <./Figures/4-eps-converted-to.pdf> <./Figures/5-eps-converted-to.pdf> <./Figures/6-eps-converted-to.pdf> <./Figures/7-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 175.
-LaTeX Info: Redefining \% on input line 175.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 175.
- [32 <./Figures/11-eps-converted-to.pdf> <./Figures/22-eps-converted-to.pdf> <./Figures/33-eps-converted-to.pdf> <./Figures/44-eps-converted-to.pdf> <./Figures/55-eps-converted-to.pdf> <./Figures/66-eps-converted-to.pdf> <./Figures/77-eps-converted-to.pdf> <./Figures/88-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 175.
-LaTeX Info: Redefining \% on input line 175.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 175.
- [33 <./Figures/baresi.png (PNG copy)> <./Figures/bavdw.png (PNG copy)> <./Figures/a.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 175.
-LaTeX Info: Redefining \% on input line 175.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 175.
- [34 <./Figures/1fzxresid.png (PNG copy)> <./Figures/1fzxvdw.png (PNG copy)> <./Figures/1fzxba.png (PNG copy)> <./Figures/can1-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 175.
-LaTeX Info: Redefining \% on input line 175.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 175.
- [35 <./Figures/can2-eps-converted-to.pdf> <./Figures/can3-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 175.
-LaTeX Info: Redefining \% on input line 175.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 175.
- [36 <./Figures/1fzx-eps-converted-to.pdf> <./Figures/1fzy-eps-converted-to.pdf>] (./Sections/Seccion_6.tex
+(./Sections/Seccion_6.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 Package babel Info: Redefining spanish shorthand <<
@@ -3637,7 +3431,250 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
- [37 <./Figures/1fzz-eps-converted-to.pdf>]
+ [29 <./Figures/dep.png> <./Figures/dep1.png>]
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+ [30 <./Figures/e-100ev-eps-converted-to.pdf> <./Figures/e-200ev-eps-converted-to.pdf> <./Figures/e-400ev-eps-converted-to.pdf> <./Figures/e-600-eps-converted-to.pdf> <./Figures/e-800ev-eps-converted-to.pdf> <./Figures/e1kev-eps-converted-to.pdf> <./Figures/e20kev-eps-converted-to.pdf> <./Figures/e40kev-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+ [31 <./Figures/proton200eV-eps-converted-to.pdf> <./Figures/proton400eV-eps-converted-to.pdf> <./Figures/proton600eV-eps-converted-to.pdf> <./Figures/proton800eV-eps-converted-to.pdf> <./Figures/proton1kev-eps-converted-to.pdf> <./Figures/proton200kev-eps-converted-to.pdf> <./Figures/proton400kev-eps-converted-to.pdf> <./Figures/proton600kev-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+ [32 <./Figures/040-eps-converted-to.pdf> <./Figures/1-eps-converted-to.pdf> <./Figures/2-eps-converted-to.pdf> <./Figures/3-eps-converted-to.pdf> <./Figures/4-eps-converted-to.pdf> <./Figures/5-eps-converted-to.pdf> <./Figures/6-eps-converted-to.pdf> <./Figures/7-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+ [33 <./Figures/11-eps-converted-to.pdf> <./Figures/22-eps-converted-to.pdf> <./Figures/33-eps-converted-to.pdf> <./Figures/44-eps-converted-to.pdf> <./Figures/55-eps-converted-to.pdf> <./Figures/66-eps-converted-to.pdf> <./Figures/77-eps-converted-to.pdf> <./Figures/88-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+ [34 <./Figures/baresi.png (PNG copy)> <./Figures/bavdw.png (PNG copy)> <./Figures/a.png (PNG copy)>]
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+ [35 <./Figures/1fzxresid.png (PNG copy)> <./Figures/1fzxvdw.png (PNG copy)> <./Figures/1fzxba.png (PNG copy)> <./Figures/can1-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+ [36 <./Figures/can2-eps-converted-to.pdf> <./Figures/can3-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+ [37 <./Figures/1fzx-eps-converted-to.pdf> <./Figures/1fzy-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+ [38 <./Figures/1fzz-eps-converted-to.pdf>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 2.
 Package babel Info: Redefining spanish shorthand >>
@@ -3677,7 +3714,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
- [38
+ [39
 
 ]
 Package babel Info: Redefining spanish shorthand <<
@@ -3730,7 +3767,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 42.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 42.
- [39
+ [40
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3761,7 +3798,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 80.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 80.
- [40])
+ [41])
 LaTeX Info: Redefining \. on input line 203.
 LaTeX Info: Redefining \% on input line 203.
 Package babel Info: Redefining spanish shorthand <<
@@ -3788,7 +3825,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 203.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 203.
- [41] (/home/jaiver/Documents/tesis/Thesis_Main.bbl
+ [42] (/home/jaiver/Documents/tesis/Thesis_Main.bbl
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand >>
@@ -3829,7 +3866,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 211.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 211.
- [42
+ [43
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
@@ -3844,19 +3881,19 @@ Package rerunfilecheck Info: File `Thesis_Main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
  ) 
 Here is how much of TeX's memory you used:
- 12761 strings out of 492982
- 186072 string characters out of 6134896
- 443787 words of memory out of 5000000
- 15750 multiletter control sequences out of 15000+600000
+ 12763 strings out of 492982
+ 186094 string characters out of 6134896
+ 444787 words of memory out of 5000000
+ 15751 multiletter control sequences out of 15000+600000
  16939 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,12n,58p,1270b,2022s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on /home/jaiver/Documents/tesis/Thesis_Main.pdf (46 pages, 4295201 bytes).
+Output written on /home/jaiver/Documents/tesis/Thesis_Main.pdf (47 pages, 4300361 bytes).
 PDF statistics:
- 1493 PDF objects out of 1728 (max. 8388607)
- 1237 compressed objects within 13 object streams
- 310 named destinations out of 1000 (max. 500000)
+ 1501 PDF objects out of 1728 (max. 8388607)
+ 1244 compressed objects within 13 object streams
+ 311 named destinations out of 1000 (max. 500000)
  820 words of extra memory for PDF output out of 10000 (max. 10000000)
 
