@@ -27,7 +27,7 @@ Con tal de entender el código de pdb4dna, sus alcances, y resultados, se hace n
 G4double edepStep = theStep->GetTotalEnergyDeposit()/eV;
 \end{lstlisting}
 
-Al graficar los baricentros de 1ZBB contra estas deposiciones de la energía debido a la partícula(figura ~\ref{fig:edep}) se puede ver en que partes se esta depositando la energía para cierto evento con ciertas condiciones, nótese que  bien lo que hace el código es filtrar la energía para que el programa genere un histograma de deposición de energía en donde solo se deposito energía en el fosfato o el azúcar, esto lo hace mediante varias lineas de código, primero PDBlic se encarga de leer el pdb y luego de la división de base fosfato y azúcar, mediante el código:
+Al graficar los baricentros de 1ZBB contra estas deposiciones de la energía debido a la partícula(figura ~\ref{fig:edep}) se puede ver en que partes se esta depositando la energía para cierto evento con ciertas condiciones, nótese que  bien lo que hace el código es filtrar la energía para que el programa genere un histograma de deposición de energía en donde solo se deposito energía en el fosfato o el azúcar , esto lo hace mediante varias lineas de código, primero PDBlic se encarga de leer el pdb y luego de la división de base fosfato y azúcar, mediante el código:
 
 \lstset {language=C++}
 \begin{lstlisting}
@@ -69,7 +69,7 @@ int numStrand=0;
     }
     \end{lstlisting}
 
-    De modificarse lo anterior reemplazando por intResidue=2 se puede analizar deposición de energía en las bases, pero debido a que no tenemos noción de como se evaluá el daño por radiación en bases, esto no se llevara acabo por el momento.\\
+    De modificarse lo anterior reemplazando por intResidue=2 se puede analizar deposición de energía en las bases, además de esto se podría hallar una forma de recolectar datos sobre donde se realizaron los rompimientos y con ello se podría hacer uso de gromacs para estudiar la dinámica estructural de la molécula de ADN luego de la radiación realizada por Geant4, pero debido a que no tenemos noción de como se evaluá el daño por radiación en bases y por cuestiones de tiempo, esto no se llevara acabo por el momento.\\
 
 
 
@@ -98,49 +98,49 @@ int numStrand=0;
 \centering
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/e-100ev.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1zbbe100ev.eps}
   \caption{100 eV}
   \label{fig:subei1}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/e-200ev.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1zbbe200ev.eps}
   \caption{200 eV}
   \label{fig:subei2}
 \end{subfigure}
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/e-400ev.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1zbbe400ev.eps}
   \caption{400 eV}
   \label{fig:subei3}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/e-600.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1zbbe600ev.eps}
   \caption{600 eV}
   \label{fig:subei4}
 \end{subfigure}
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/e-800ev.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1zbbe800ev.eps}
   \caption{800 eV}
   \label{fig:subei5}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/e1kev.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1zbbe800ev.eps}
   \caption{1 keV}
   \label{fig:subei6}
 \end{subfigure}
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/e20kev.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1zbbe20kev.eps}
   \caption{20 keV}
   \label{fig:subei7}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/e40kev.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1zbbe40kev.eps}
   \caption{40 keV}
   \label{fig:subei8}
 \end{subfigure}
@@ -148,53 +148,56 @@ int numStrand=0;
 \label{fig:e}
 \end{figure}
 
+
+
+
 \begin{figure}
 \centering
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/proton200eV.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1zbbp200ev.eps}
   \caption{200 eV}
   \label{fig:sub1}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/proton400eV.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1zbbp400ev.eps}
   \caption{400 eV}
   \label{fig:sub2}
 \end{subfigure}
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/proton600eV.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1zbbp600ev.eps}
   \caption{600 eV}
   \label{fig:sub3}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/proton800eV.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1zbbp800ev.eps}
   \caption{800 eV}
   \label{fig:sub4}
 \end{subfigure}
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/proton1kev.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1zbbp1kev.eps}
   \caption{1 keV}
   \label{fig:sub5}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/proton200kev.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1zbbp200kev.eps}
   \caption{200 keV}
   \label{fig:sub6}
 \end{subfigure}
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/proton400kev.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1zbbp400kev.eps}
   \caption{400 keV}
   \label{fig:sub7}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/proton600kev.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1zbbp600kev.eps}
   \caption{600 keV}
   \label{fig:sub8}
 \end{subfigure}
@@ -208,49 +211,49 @@ int numStrand=0;
 \centering
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/040.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1fzxe40ev.eps}
   \caption{40 eV}
   \label{fig:sube1}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/1.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1fzxe100ev.eps}
   \caption{100 eV}
   \label{fig:sube2}
 \end{subfigure}
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/2.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1fzxe200ev.eps}
   \caption{200 eV}
   \label{fig:sube3}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/3.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1fzxe400ev.eps}
   \caption{400 eV}
   \label{fig:sube4}
 \end{subfigure}
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/4.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1fzxe600ev.eps}
   \caption{600 eV}
   \label{fig:sube5}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/5.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1fzxe800ev.eps}
   \caption{800 eV}
   \label{fig:sube6}
 \end{subfigure}
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/6.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1fzxe1kev.eps}
   \caption{1 keV}
   \label{fig:sube7}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/7.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1fzxe20kev.eps}
   \caption{20 keV}
   \label{fig:sube8}
 \end{subfigure}
@@ -265,49 +268,49 @@ int numStrand=0;
 \centering
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/11.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1fzxp200ev.eps}
   \caption{200 eV}
   \label{fig:subi1}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/22.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1fzxp400ev.eps}
   \caption{400 eV}
   \label{fig:subi2}
 \end{subfigure}
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/33.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1fzxp600ev.eps}
   \caption{600 eV}
   \label{fig:subi3}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/44.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1fzxp800ev.eps}
   \caption{800 eV}
   \label{fig:subi4}
 \end{subfigure}
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/55.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1fzxp1kev.eps}
   \caption{1 keV}
   \label{fig:subi5}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/66.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1fzxp200kev.eps}
   \caption{200 keV}
   \label{fig:subi6}
 \end{subfigure}
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/77.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1fzxp400kev.eps}
   \caption{400 keV}
   \label{fig:subi7}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.78\linewidth]{./Figures/88.eps}
+  \includegraphics[width=.78\linewidth]{./Figures/1fzxp600kev.eps}
   \caption{600 keV}
   \label{fig:subi8}
 \end{subfigure}
@@ -315,11 +318,10 @@ int numStrand=0;
 \label{fig:p2}
 \end{figure}
 
-Por otro lado se tienen las limitaciones de PDB4DNA, primero que nada tiene la limitación de como leer un archivo pdb, se basa en el uso del texto "TER" encontrando en estos archivos para leer cada cadena de ADN, el problema con esto radica en que no todos los archivos de este tipo contienen este comando, además de que por el momento este numero solo permite hacer uso de moléculas de ADN de dos cadenas y filtra el resto de la molécula para que no sea leída, esto nos podemos dar cuenta al comparar la figura de 1ZBB en Geant4(figura ~\ref{h}) y la vista en vmd(figura ~\ref{fig:1zbb}) como podemos observar la vista en Geant4 no tiene en cuenta los átomos que se encuentran al interior de los anillos de 1ZBB, a pesar de ser capaz de leer moléculas diferentes a las de ADN, muchas veces no muestra estas moléculas correctamente debido también en parte a leer el termino TER, aunque de modificarse correctamente se debe hacer posible la lectura y evaluación de estás moléculas.\\
+Por otro lado se tienen las limitaciones de PDB4DNA, primero que nada tiene la restricción de como leer un archivo pdb, se basa en el uso del texto "TER" encontrando en estos archivos para leer cada cadena de ADN, el problema con esto radica en que no todos los archivos de este tipo contienen este comando, además de que por el momento este numero solo permite hacer uso de moléculas de ADN de dos cadenas y filtra el resto de la molécula para que no sea leída, esto nos podemos dar cuenta al comparar la figura de 1ZBB en Geant4(figura ~\ref{h}) y la vista en vmd(figura ~\ref{fig:1zbb}) como podemos observar la vista en Geant4 no tiene en cuenta los átomos que se encuentran al interior de los anillos de 1ZBB, a pesar de ser capaz de leer moléculas diferentes a las de ADN, muchas veces no muestra estas moléculas correctamente debido en parte a lectura del termino TER y a la selección de átomos que el programa realiza para formar los nucleótidos, aunque bien de modificarse correctamente se puede hacer posible la lectura y evaluación de estás moléculas.\\
 
 
-Por ultimo PDB4DNA fue modificado de tal manera que en vez de hacer uso de las esferas ligadas a partir de baricentros hiciera uso de centros de masa, para esto se uso el archivo PDBlib, primero se definió la masa de los diferentes elementos (véase anexo ~\ref{app:A}),y luego se usaron las clases bases ya definidas en PDBlib para hacer los respectivos cálculos de centros de masa(véase anexo), al hacer esto y visualizar en Geant4 no se nota ningún cambio alguno para ninguna de las dos moléculas (véase figuras ~\ref{fig:sub66} y ~\ref{fig:sub666}), sin embargo al hacer histogramas de Root si es posible observar cambios respecto a las posiciones que podrían alterar resultados en las deposiciones de energía y en consecuencia en los rompimientos dobles, esto puede ser apreciado para cada molécula en las figuras
-
+Por ultimo PDB4DNA fue modificado de tal manera que en vez de hacer uso de las esferas ligadas a partir de baricentros hiciera uso de centros de masa, para esto se uso el archivo PDBlib, primero se definió la masa de los diferentes elementos (véase anexo ~\ref{app:M}),y luego se usaron las clases bases ya definidas en PDBlib para hacer los respectivos cálculos de centros de masa(véase anexo ~\ref{app:CM})), al hacer esto y visualizar en Geant4 no se nota ningún cambio alguno para ninguna de las dos moléculas (véase figuras ~\ref{fig:sub66} y ~\ref{fig:sub666}), también al realizar los eventos con los centros de masa y generar los debidos histogramas de deposición para ambas moléculas con las mismas energías observadas en la figuras ~\ref{fig:e},~\ref{fig:p},~\ref{fig:e2},~\ref{fig:p2}, no se presenta cambio alguno y debido a esto no se incluyeron, esto se puede deber a que la influencia de la magnitud del termino de la masa no afecta en mayor medida la posición de las partículas o el programa no esta tomando correctamente los nuevos baricentros, de cualquiera manera esto requiere más estudio debido a que la inclusión de centros de masa presenta un cambio relevante al modelo propuesto por pdb4dna con el uso de baricentros,  sin embargo al hacer histogramas de Root si es posible observar cambios respecto a las posiciones que de implementarse correctamente podrían alterar resultados en las deposiciones de energía en moléculas mucho más grandes y en consecuencia en los rompimientos dobles, los histogramas fueron realizados para cada cadena de ADN y su respectivas coordenadas x,y,z, para 1ZBB véase figuras: ~\ref{fig:canx},~\ref{fig:cany},~\ref{fig:canz}, y para 1FZX: ~\ref{fig:cax},~\ref{fig:cay},~\ref{fig:caz}.
 \begin{figure}
 \centering
 \begin{subfigure}{.5\textwidth}
@@ -454,11 +456,3 @@ Por ultimo PDB4DNA fue modificado de tal manera que en vez de hacer uso de las e
   \caption[Baricentros en $z$ vs centros de masa en $z$ para 1FZX]{Baricentros en $z$ vs centros de masa en $z$ para 1FZX}
     \label{fig:caz}
 \end{figure}
-
-
-
-hablar algo de TER Y limitaciones
-Hacer modificaciones de TER
-mismas partículas?
-centros de masa
- ~\ref{app:B}).\\
