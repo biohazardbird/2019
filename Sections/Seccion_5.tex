@@ -69,7 +69,7 @@ int numStrand=0;
     }
     \end{lstlisting}
 
-    De modificarse lo anterior reemplazando por intResidue=2 se puede analizar deposición de energía en las bases, además de esto se podría hallar una forma de recolectar datos sobre donde se realizaron los rompimientos y con ello se podría hacer uso de gromacs para estudiar la dinámica estructural de la molécula de ADN luego de la radiación realizada por Geant4, pero debido a que no tenemos noción de como se evaluá el daño por radiación en bases y por cuestiones de tiempo, esto no se llevara acabo por el momento.\\
+    De modificarse lo anterior reemplazando por intResidue=2 se puede analizar deposición de energía en las bases, además de esto se podría hallar una forma de recolectar datos sobre donde se realizaron los rompimientos y con ello se podría hacer uso de gromacs para estudiar la dinámica estructural de la molécula de ADN luego de la radiación realizada por Geant4, pero debido a que no tenemos noción de como se evaluá el daño por radiación en bases y por cuestiones de tiempo, esto no se llevara acabo por el momento.
 
 
 
@@ -92,6 +92,10 @@ int numStrand=0;
 \end{figure}
 
 
+
+
+Por otro lado se tienen las limitaciones de PDB4DNA, primero que nada tiene la restricción de como leer un archivo pdb, se basa en el uso del texto "TER" encontrando en estos archivos para leer cada cadena de ADN, el problema con esto radica en que no todos los archivos de este tipo contienen este comando, además de que por el momento este numero solo permite hacer uso de moléculas de ADN de dos cadenas y filtra el resto de la molécula para que no sea leída, esto nos podemos dar cuenta al comparar la figura de 1ZBB en Geant4(figura ~\ref{h}) y la vista en vmd(figura ~\ref{fig:1zbb}) como podemos observar la vista en Geant4 no tiene en cuenta los átomos que se encuentran al interior de los anillos de 1ZBB, a pesar de ser capaz de leer moléculas diferentes a las de ADN, muchas veces no muestra estas moléculas correctamente debido en parte a lectura del termino TER y a la selección de átomos que el programa realiza para formar los nucleótidos, aunque bien de modificarse correctamente se puede hacer posible la lectura y evaluación de estás moléculas.\\
+Por ultimo PDB4DNA fue modificado de tal manera que en vez de hacer uso de las esferas ligadas a partir de baricentros hiciera uso de centros de masa, para esto se uso el archivo PDBlib, primero se definió la masa de los diferentes elementos (véase anexo ~\ref{app:M}),y luego se usaron las clases bases ya definidas en PDBlib para hacer los respectivos cálculos de centros de masa(véase anexo ~\ref{app:CM})), al hacer esto y visualizar en Geant4 no se nota ningún cambio alguno para ninguna de las dos moléculas (véase figuras ~\ref{fig:sub66} y ~\ref{fig:sub666}), también al realizar los eventos con los centros de masa y generar los debidos histogramas de deposición para ambas moléculas con las mismas energías observadas en la figuras ~\ref{fig:e},~\ref{fig:p},~\ref{fig:e2},~\ref{fig:p2}, no se presenta cambio alguno y debido a esto no se incluyeron, esto se puede deber a que la influencia de la magnitud del termino de la masa no afecta en mayor medida la posición de las partículas o el programa no esta tomando correctamente los nuevos baricentros, de cualquiera manera esto requiere más estudio debido a que la inclusión de centros de masa presenta un cambio relevante al modelo propuesto por pdb4dna con el uso de baricentros,  sin embargo al hacer histogramas de Root si es posible observar cambios respecto a las posiciones que de implementarse correctamente podrían alterar resultados en las deposiciones de energía en moléculas mucho más grandes y en consecuencia en los rompimientos dobles, los histogramas fueron realizados para cada cadena de ADN y su respectivas coordenadas x,y,z, para 1ZBB véase figuras: ~\ref{fig:canx},~\ref{fig:cany},~\ref{fig:canz}, y para 1FZX: ~\ref{fig:cax},~\ref{fig:cay},~\ref{fig:caz}.
 
 
 \begin{figure}
@@ -318,43 +322,42 @@ int numStrand=0;
 \label{fig:p2}
 \end{figure}
 
-Por otro lado se tienen las limitaciones de PDB4DNA, primero que nada tiene la restricción de como leer un archivo pdb, se basa en el uso del texto "TER" encontrando en estos archivos para leer cada cadena de ADN, el problema con esto radica en que no todos los archivos de este tipo contienen este comando, además de que por el momento este numero solo permite hacer uso de moléculas de ADN de dos cadenas y filtra el resto de la molécula para que no sea leída, esto nos podemos dar cuenta al comparar la figura de 1ZBB en Geant4(figura ~\ref{h}) y la vista en vmd(figura ~\ref{fig:1zbb}) como podemos observar la vista en Geant4 no tiene en cuenta los átomos que se encuentran al interior de los anillos de 1ZBB, a pesar de ser capaz de leer moléculas diferentes a las de ADN, muchas veces no muestra estas moléculas correctamente debido en parte a lectura del termino TER y a la selección de átomos que el programa realiza para formar los nucleótidos, aunque bien de modificarse correctamente se puede hacer posible la lectura y evaluación de estás moléculas.\\
 
 
-Por ultimo PDB4DNA fue modificado de tal manera que en vez de hacer uso de las esferas ligadas a partir de baricentros hiciera uso de centros de masa, para esto se uso el archivo PDBlib, primero se definió la masa de los diferentes elementos (véase anexo ~\ref{app:M}),y luego se usaron las clases bases ya definidas en PDBlib para hacer los respectivos cálculos de centros de masa(véase anexo ~\ref{app:CM})), al hacer esto y visualizar en Geant4 no se nota ningún cambio alguno para ninguna de las dos moléculas (véase figuras ~\ref{fig:sub66} y ~\ref{fig:sub666}), también al realizar los eventos con los centros de masa y generar los debidos histogramas de deposición para ambas moléculas con las mismas energías observadas en la figuras ~\ref{fig:e},~\ref{fig:p},~\ref{fig:e2},~\ref{fig:p2}, no se presenta cambio alguno y debido a esto no se incluyeron, esto se puede deber a que la influencia de la magnitud del termino de la masa no afecta en mayor medida la posición de las partículas o el programa no esta tomando correctamente los nuevos baricentros, de cualquiera manera esto requiere más estudio debido a que la inclusión de centros de masa presenta un cambio relevante al modelo propuesto por pdb4dna con el uso de baricentros,  sin embargo al hacer histogramas de Root si es posible observar cambios respecto a las posiciones que de implementarse correctamente podrían alterar resultados en las deposiciones de energía en moléculas mucho más grandes y en consecuencia en los rompimientos dobles, los histogramas fueron realizados para cada cadena de ADN y su respectivas coordenadas x,y,z, para 1ZBB véase figuras: ~\ref{fig:canx},~\ref{fig:cany},~\ref{fig:canz}, y para 1FZX: ~\ref{fig:cax},~\ref{fig:cay},~\ref{fig:caz}.
+
 \begin{figure}
 \centering
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{.4\textwidth}
   \centering
   \includegraphics[width=.78\linewidth]{./Figures/baresi.png}
   \caption{Baricentro residuos }
   \label{fig:sub11}
 \end{subfigure}%
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{.4\textwidth}
   \centering
   \includegraphics[width=.78\linewidth]{./Figures/baresi.png}
   \caption{Centros de masa residuos}
   \label{fig:sub22}
 \end{subfigure}
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{.4\textwidth}
   \centering
   \includegraphics[width=.78\linewidth]{./Figures/bavdw.png}
   \caption{Baricentro VDW}
   \label{fig:sub33}
 \end{subfigure}%
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{.4\textwidth}
   \centering
   \includegraphics[width=.78\linewidth]{./Figures/bavdw.png}
   \caption{Centros de masa VDW}
   \label{fig:sub44}
 \end{subfigure}
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{.4\textwidth}
   \centering
   \includegraphics[width=.78\linewidth]{./Figures/a.png}
   \caption{Baricentro esferas ligadas}
   \label{fig:sub55}
 \end{subfigure}%
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{.4\textwidth}
   \centering
   \includegraphics[width=.78\linewidth]{./Figures/a.png}
   \caption{Centros de masa esferas ligadas}
@@ -369,37 +372,37 @@ Por ultimo PDB4DNA fue modificado de tal manera que en vez de hacer uso de las e
 
 \begin{figure}
 \centering
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{.4\textwidth}
   \centering
   \includegraphics[width=.78\linewidth]{./Figures/1fzxresid.png}
   \caption{Baricentros residuos}
   \label{fig:sub111}
 \end{subfigure}%
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{.4\textwidth}
   \centering
   \includegraphics[width=.78\linewidth]{./Figures/1fzxresid.png}
   \caption{Centros de masa residuos}
   \label{fig:sub222}
 \end{subfigure}
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{.4\textwidth}
   \centering
   \includegraphics[width=.78\linewidth]{./Figures/1fzxvdw.png}
   \caption{Baricentro VDW}
   \label{fig:sub333}
 \end{subfigure}%
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{.4\textwidth}
   \centering
   \includegraphics[width=.78\linewidth]{./Figures/1fzxvdw.png}
   \caption{Centros de masa VDW}
   \label{fig:sub444}
 \end{subfigure}
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{.4\textwidth}
   \centering
   \includegraphics[width=.78\linewidth]{./Figures/1fzxba.png}
   \caption{Baricentro esferas ligadas}
   \label{fig:sub555}
 \end{subfigure}%
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{.4\textwidth}
   \centering
   \includegraphics[width=.78\linewidth]{./Figures/1fzxba.png}
   \caption{Centros de masa esferas ligadas}
@@ -414,9 +417,9 @@ Por ultimo PDB4DNA fue modificado de tal manera que en vez de hacer uso de las e
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=1\linewidth]{./Figures/can1.eps}
   \caption[Baricentros en $x$ vs centros de masa en $x$ para 1ZBB]{Baricentros en $x$ vs centros de masa en $x$ para 1ZBB}
     \label{fig:canx}
+    \includegraphics[width=1\linewidth]{./Figures/can1.eps}
 \end{figure}
 
 \begin{figure}[htbp]
