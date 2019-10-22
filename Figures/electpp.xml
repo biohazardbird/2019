@@ -55,7 +55,6 @@
      <void property="strokeWidth">
       <float>1.0</float>
      </void>
-     <void id="Integer0" property="pointCount"/>
     </object>
    </void>
    <void method="add">
@@ -71,13 +70,12 @@
      </void>
      <void id="JaxoDefaultArrow0" property="arrow">
       <void id="Color0" property="color"/>
-      <void id="Boolean0" method="isFilled"/>
      </void>
      <void property="color">
       <object idref="Color0"/>
      </void>
      <void property="paintArrow">
-      <object idref="Boolean0"/>
+      <boolean>true</boolean>
      </void>
      <void id="PointArray1" property="points">
       <void id="Point2" index="0">
@@ -136,7 +134,7 @@
       <object idref="Color0"/>
      </void>
      <void property="paintArrow">
-      <object idref="Boolean0"/>
+      <boolean>true</boolean>
      </void>
      <void id="PointArray2" property="points">
       <void id="Point4" index="0">
@@ -195,7 +193,7 @@
       <object idref="Color0"/>
      </void>
      <void property="paintArrow">
-      <object idref="Boolean0"/>
+      <boolean>true</boolean>
      </void>
      <void id="PointArray3" property="points">
       <void id="Point6" index="0">
@@ -353,7 +351,7 @@
       <object idref="Color0"/>
      </void>
      <void property="paintArrow">
-      <object idref="Boolean0"/>
+      <boolean>true</boolean>
      </void>
      <void id="PointArray6" property="points">
       <void id="Point12" index="0">
@@ -553,7 +551,7 @@
       <object idref="Color0"/>
      </void>
      <void property="paintArrow">
-      <object idref="Boolean0"/>
+      <boolean>true</boolean>
      </void>
      <void id="PointArray10" property="points">
       <void id="Point20" index="0">
@@ -1074,12 +1072,15 @@
      <void property="wiggles">
       <int>10</int>
      </void>
+     <void id="JaxoDefaultArrow1" property="arrow">
+      <void id="Boolean0" method="isFilled"/>
+     </void>
     </object>
    </void>
    <void method="add">
     <object class="net.sf.jaxodraw.object.text.JaxoLatexText" id="JaxoLatexText0">
      <void property="allign">
-      <object idref="Integer0"/>
+      <int>2</int>
      </void>
      <void property="color">
       <object class="java.awt.Color" id="Color2">
@@ -1262,7 +1263,7 @@
    <void method="add">
     <object class="net.sf.jaxodraw.object.text.JaxoLatexText" id="JaxoLatexText1">
      <void property="allign">
-      <object idref="Integer0"/>
+      <int>2</int>
      </void>
      <void property="color">
       <object idref="Color2"/>
@@ -1475,11 +1476,8 @@
      <void property="arrowPosition">
       <float>0.5</float>
      </void>
-     <void id="JaxoDefaultArrow1" property="arrow">
-      <void id="Color3" property="color"/>
-     </void>
      <void property="color">
-      <object idref="Color3"/>
+      <object idref="Color0"/>
      </void>
      <void property="dash">
       <float>10.0</float>
@@ -1541,7 +1539,7 @@
       <float>0.5</float>
      </void>
      <void property="color">
-      <object idref="Color3"/>
+      <object idref="Color0"/>
      </void>
      <void property="dash">
       <float>10.0</float>
@@ -1688,10 +1686,10 @@
    <void method="add">
     <object class="net.sf.jaxodraw.object.text.JaxoLatexText" id="JaxoLatexText2">
      <void property="allign">
-      <object idref="Integer0"/>
+      <int>2</int>
      </void>
      <void property="color">
-      <object idref="Color3"/>
+      <object idref="Color0"/>
      </void>
      <void property="latexTextSize">
       <int>4</int>
@@ -1725,10 +1723,10 @@
    <void method="add">
     <object class="net.sf.jaxodraw.object.text.JaxoLatexText" id="JaxoLatexText3">
      <void property="allign">
-      <object idref="Integer0"/>
+      <int>2</int>
      </void>
      <void property="color">
-      <object idref="Color3"/>
+      <object idref="Color0"/>
      </void>
      <void property="latexTextSize">
       <int>4</int>
@@ -1762,10 +1760,10 @@
    <void method="add">
     <object class="net.sf.jaxodraw.object.text.JaxoLatexText" id="JaxoLatexText4">
      <void property="allign">
-      <object idref="Integer0"/>
+      <int>2</int>
      </void>
      <void property="color">
-      <object idref="Color3"/>
+      <object idref="Color0"/>
      </void>
      <void property="latexTextSize">
       <int>4</int>
@@ -1799,10 +1797,10 @@
    <void method="add">
     <object class="net.sf.jaxodraw.object.text.JaxoLatexText" id="JaxoLatexText5">
      <void property="allign">
-      <object idref="Integer0"/>
+      <int>2</int>
      </void>
      <void property="color">
-      <object idref="Color3"/>
+      <object idref="Color0"/>
      </void>
      <void property="latexTextSize">
       <int>4</int>
@@ -1829,7 +1827,7 @@
       <object idref="PointArray36"/>
      </void>
      <void property="textString">
-      <string>E_k (e^-)+E_k(e^+)+E_k(e^{-}_{orb})=h\nu -1.02 MeV</string>
+      <string>E_k (e^-)+E_k(e^+)+E_k(e^{-}_{orb})=h\nu -2.04 MeV</string>
      </void>
     </object>
    </void>
