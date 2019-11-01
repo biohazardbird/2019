@@ -9,6 +9,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage[T1]{fontenc}
+\usepackage[titles]{tocloft}
 \usepackage{graphicx}
 \usepackage{longtable}
 \usepackage{hyperref}
@@ -148,9 +149,11 @@ ADN, posterior a su interacción con radiación ionizante}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
 \pagenumbering{Roman}
-\tableofcontents
+\small{\tableofcontents}
 \clearpage
-\listoffigures
+\small{
+\listoffigures}
+
 \clearpage
 %\listoftables
 %\clearpage
