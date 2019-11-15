@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex Thesis_Main"] 1572147789 "Thesis_Main.aux" "Thesis_Main.bbl" "Thesis_Main" 1572612755
+["bibtex Thesis_Main"] 1572147789 "Thesis_Main.aux" "Thesis_Main.bbl" "Thesis_Main" 1572749996
   "/usr/share/texlive/texmf-dist/bibtex/bst/dinat/dinat.bst" 1480098434 44478 8171722d387d8657f0397923511dcd08 ""
   "Bibliography.bib" 1569620384 3317 6c123949d8247185ceca13c6b29c6d7e ""
   "Thesis_Main.aux" 1572564735 25877 b20641d64b2e9776998636ee5f261278 ""
   "Thesis_Main.bcf" 1569519498 89558 46c809f129c8ede1b12c79b36d816f9d ""
   (generated)
-  "Thesis_Main.blg"
   "Thesis_Main.bbl"
-["pdflatex"] 1572564721 "Thesis_Main.tex" "/home/jaiver/Documents/tesis/Thesis_Main.pdf" "Thesis_Main" 1572612755
+  "Thesis_Main.blg"
+["pdflatex"] 1572564721 "Thesis_Main.tex" "/home/jaiver/Documents/tesis/Thesis_Main.pdf" "Thesis_Main" 1572749996
   "./Figures/1FZX.png" 1571443042 196940 6402dfc8f64c21099756f730dcf14869 ""
   "./Figures/1ZBB.png" 1571443062 788418 a4e9e738c07f773b3acfb3ddf1213460 ""
   "./Figures/1fzx.eps" 1570411293 33113 3fba597c4e28cd4ef0d7911d7e72f58a ""
@@ -299,15 +299,15 @@
   "Thesis_Main.tex" 1572147481 5385 b28ece8f60dc0eda98e9f389e6489d31 ""
   "Thesis_Main.toc" 1572564735 5621 17eb8e7b2dc3e84dd8a13e9ee20a0e3b ""
   (generated)
-  "/home/jaiver/Documents/tesis/Thesis_Main.log"
-  "Thesis_Main.run.xml"
-  "Thesis_Main.lof"
-  "/home/jaiver/Documents/tesis/Thesis_Main.pdf"
-  "Thesis_Main.log"
-  "Thesis_Main.aux"
-  "Thesis_Main.toc"
-  "Thesis_Main.pyg"
-  "Thesis_Main.lot"
-  "Thesis_Main.pdf"
-  "Thesis_Main.bcf"
   "Thesis_Main.out"
+  "Thesis_Main.bcf"
+  "/home/jaiver/Documents/tesis/Thesis_Main.log"
+  "Thesis_Main.lof"
+  "Thesis_Main.aux"
+  "Thesis_Main.lot"
+  "Thesis_Main.log"
+  "/home/jaiver/Documents/tesis/Thesis_Main.pdf"
+  "Thesis_Main.pdf"
+  "Thesis_Main.pyg"
+  "Thesis_Main.run.xml"
+  "Thesis_Main.toc"
